@@ -1,0 +1,260 @@
+/* ===========================================================================
+	Base Styles
+	========================================================================== */
+	.section.squared {
+		margin-bottom: 2em;
+		width: 100%;
+		height: auto;
+	}
+
+	.section.squared:last-child {
+		margin-bottom: 0;
+	}
+
+	.squared h3, .squared h4, .squared h5 {
+		font-size: 1.17em;
+		margin: 1em 0;
+		color: #333;
+	}
+
+	input.regular-text {
+		width: 50em;
+		max-width: 100%;
+	}
+
+	.section.squared textarea {
+		width: 50em;
+		max-width: 100%;
+		height: 8em;
+	}
+
+	.section.squared p {
+		margin: 0 0 1em 0;
+	}
+
+	.section.squared .description, .form-wrap p {
+		color: #222;
+	}
+
+	#squar3d_theme_options_logo_url {
+		display: none;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+/* ===========================================================================
+	Icons
+	========================================================================== */
+	.metro-icon {
+		cursor: pointer;
+		margin-bottom: 10px;
+		margin-right: 2%;
+		padding: 1%;
+		width: 15%;
+		min-height: 156px;
+		float: left;
+		background: #ECECEC;
+		border: 1px solid #CCC;
+		transition: background .25s ease-in-out;
+		-moz-transition: background .25s ease-in-out;
+		-webkit-transition: background .25s ease-in-out;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.metro-icon:nth-child(6n+7) {
+		margin-right: 0px;
+	}
+
+	.metro-icon:nth-child(6n+8) {
+		clear: left;
+	}
+
+	.metro-icon:hover {
+		background: #E4E4E4;
+	}
+
+	.metro-icon.active {
+		background: #E4E4E4;
+		transition: background .25s ease-in-out;
+		-moz-transition: background .25s ease-in-out;
+		-webkit-transition: background .25s ease-in-out;
+	}
+
+	.metro-icon.active:hover {
+		background: #ECECEC;
+	}
+
+	.metro-icon label {
+		font-size: .7rem;
+		line-height: 1rem;
+	}
+
+	.metro-icon input {
+		margin: 0;
+		padding: 3px;
+		width: 100%;
+		font-size: .7rem;
+		color: #444;
+	}
+
+	.metro-icon i {
+		display: block;
+		margin: 5px auto 8px auto;
+		clear: both;
+		text-align: center;
+		font-size: 4rem;
+	}
+
+	.metro-icon span {
+		display: block;
+		font-size: .6rem;
+		color: #aaa;
+		text-align: center;
+	}
+
+
+/* ===========================================================================
+	Inputs
+	========================================================================== */
+	.metro-input {
+		margin-right: 2%;
+		width: 23.5%;
+		float: left;
+	}
+
+	.metro-input:nth-child(4n+5) {
+		margin-right: 0%;
+	}
+
+	.metro-input input.regular-text {
+		width: 100%;
+	}
+
+/* ===========================================================================
+	Color Scheme Preview
+	========================================================================== */
+	.color-preview {
+		display: block;
+		margin-top: 1em;
+		padding: .35em;
+		width: 25em;
+		max-width: 100%;
+		height: 10em;
+		border: 1px solid #eee;
+	}
+
+	.color-preview div {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: #25c7e9;
+	}
+
+	.color-preview div span {
+		display: block;
+		position: absolute;
+		bottom: 0;
+		padding-top: .2em;
+		width: 100%;
+		height: 1.6em;
+		text-align: center;
+		font-weight: bold;
+		color: #FFF;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		background-color:rgba(0,0,0,0.5);
+	}
+
+/* ===========================================================================
+	Responsive
+	========================================================================== */
+	@media only screen and (max-width: 767px) {
+
+		.metro-icon {
+			margin-right: 2%;
+			padding: 1%;
+			width: 18%;
+		}
+
+		.metro-icon:nth-child(6n+7) {
+			margin-right: 2%;
+		}
+
+		.metro-icon:nth-child(6n+8) {
+			clear: none;
+		}
+
+
+		.metro-icon:nth-child(5n+6) {
+			margin-right: 0px;
+		}
+
+		.metro-icon:nth-child(5n+7) {
+			clear: left;
+		}
+
+	}
+
+	/* ---------------------------------------------------------- 
+                    Layout Styling
+------------------------------------------------------------*/
+#wps-panel {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+     
+    #wps-panel-sidebar {
+    	float: none;
+    	width: auto;
+    }
+        #wps-panel-sidebar ul, #wps-panel-sidebar li {
+        	list-style-type: none;
+        	margin: 0;
+        	padding: 0;
+        }
+        #wps-panel-sidebar ul {
+        	text-align:
+        	left;
+        }
+        #wps-panel-sidebar li {
+        	display: inline-block;
+        }
+            #wps-panel-sidebar a {
+            	display: block;
+            	padding: 4px 10px 6px;
+				font-weight: 200;
+				font-size: 20px;
+				line-height: 24px;
+				color: #aaa;
+				text-decoration: none;
+				border-color: #DFDFDF #DFDFDF #CCC;
+				border-width: 1px;
+				border-style: solid;
+            }
+            #wps-panel-sidebar a:hover {
+            	color: #D54E21;
+            }
+            #wps-panel-sidebar a.wps-panel-active {
+            	border-color: #CCC #CCC #CCC;
+            	color: #464646;
+            }
+     
+    #wps-panel-content {
+    	overflow: hidden;
+    	padding: 10px;
+    	border-top: 1px solid #CCC;
+    }
+        #wps-panel-content, #wps-panel-content p {
+        	font-size: 11px;
+        	color: #333;
+        }
+         
+        .wps-panel-section {
+        	display:none;
+        }
+        .wps-panel-section.wps-panel-active {
+        	display:block;
+        }

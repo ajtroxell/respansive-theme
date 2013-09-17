@@ -1,0 +1,42 @@
+/* ===========================================================================
+	General Styles
+	========================================================================== */
+	html {
+		font-size:62.5%;
+	}
+
+	body {
+		color: $text;
+	}
+
+	.wrap {
+		position: relative;
+		@include transition (all 0.3s ease-out);
+	}
+
+	.row {
+		width: 100%;
+		max-width: 80em;
+	}
+
+	.row-full {
+		max-width: none;
+		.column, .columns {
+			padding: 0;
+		}
+	}
+
+	.gradient {
+       filter: none;
+    }
+
+	a {
+		color: $link;
+		text-decoration: none;
+		&:hover {
+			color: $link-hover;
+		}
+		&:visited {
+			color: $link-visited;
+		}
+	}

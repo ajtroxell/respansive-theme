@@ -1,0 +1,50 @@
+/*  Element Resets
+	========================================================================== */
+	nav ul {
+		margin: 0em;
+		list-style: none;
+		list-style-position: inside;
+		li {
+			display: inline;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+		color: $text;
+	}
+
+	h3 {
+		@include font-size(26,30);
+	}
+
+	h4 {
+		@include font-size(24,27);
+	}
+
+	h5 {
+		@include font-size(22,26);
+		text-transform: uppercase;
+	}
+
+	aside {
+		h2, h3, h4, h5, h6 {
+			margin-top: .5em;
+		}
+	}
+
+	p {
+		@include font-size(18,24);
+	}
+
+	hr {
+		margin: 0 auto;
+		padding: 0;
+		border: none;
+		height: .1em;
+		background: $gray;
+	}
+
+	iframe {
+		max-width: 100%;
+	}

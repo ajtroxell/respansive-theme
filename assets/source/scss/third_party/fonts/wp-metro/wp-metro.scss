@@ -1,0 +1,345 @@
+@font-face {
+	font-family: 'WP-Metro';
+	src:url('/assets/css/fonts/wp-metro/WP-Metro.eot');
+	src:url('/assets/css/fonts/wp-metro/WP-Metro.eot?#iefix') format('embedded-opentype'),
+		url('/assets/css/fonts/wp-metro/WP-Metro.woff') format('woff'),
+		url('/assets/css/fonts/wp-metro/WP-Metro.ttf') format('truetype'),
+		url('/assets/css/fonts/wp-metro/WP-Metro.svg#WP-Metro') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'WP-Metro';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="metro-"] {
+*/
+.metro-x, .metro-sync, .metro-camcorder, .metro-camera, .metro-trash, .metro-tag, .metro-pencil, .metro-disk, .metro-download, .metro-refresh, .metro-cog, .metro-check, .metro-reload, .metro-send, .metro-link, .metro-feed, .metro-folder, .metro-home, .metro-files, .metro-tumblr-sync, .metro-tumblr-quote, .metro-tumblr-camera, .metro-tumblr-link, .metro-tumblr-comments, .metro-tumblr-audio, .metro-tumblr-text, .metro-tumblr-clock, .metro-tumblr-love, .metro-tumblr-infinite, .metro-tumblr-tag, .metro-tumblr-film, .metro-plain-refresh, .metro-plain-back, .metro-plain-forward, .metro-plain-download, .metro-plain-upload, .metro-plain-question, .metro-plain-cog, .metro-plain-gift, .metro-plain-mail, .metro-plan-starred, .metro-plain-star, .metro-plain-camcorder, .metro-plain-camera, .metro-plain-disk, .metro-plain-pencil, .metro-plain-folder, .metro-plain-hamburger-lg, .metro-plain-hamgurger, .metro-plain-magnify, .metro-mic-off, .metro-back, .metro-forward, .metro-down, .metro-up, .metro-mic, .metro-thumbs-down, .metro-thumbs-up, .metro-one-note, .metro-word, .metro-office, .metro-excel, .metro-tumblr, .metro-linkedin, .metro-twitter, .metro-lastfm, .metro-evernote, .metro-dribbble, .metro-wordpress, .metro-vimeo, .metro-youtube, .metro-digg, .metro-facebook, .metro-googleplus, .metro-deviantart, .metro-rss, .metro-delicious, .metro-flickr, .metro-bitbucket, .metro-githubsolid, .metro-github, .metro-skydrive, .metro-earphones, .metro-chat, .metro-phone, .metro-controller, .metro-mail, .metro-xbox, .metro-marketplace, .metro-calendar, .metro-spotify, .metro-hulu, .metro-zune, .metro-disqus, .metro-question, .metro-amazon, .metro-steam, .metro-soundcloud, .metro-skype, .metro-stumbleupon, .metro-stumbleuponold, .metro-exclamation {
+	font-family: 'WP-Metro';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.metro-x:before {
+	content: "\e000";
+}
+.metro-sync:before {
+	content: "\e001";
+}
+.metro-camcorder:before {
+	content: "\e002";
+}
+.metro-camera:before {
+	content: "\e003";
+}
+.metro-trash:before {
+	content: "\e004";
+}
+.metro-tag:before {
+	content: "\e005";
+}
+.metro-pencil:before {
+	content: "\e006";
+}
+.metro-disk:before {
+	content: "\e007";
+}
+.metro-download:before {
+	content: "\e008";
+}
+.metro-refresh:before {
+	content: "\e009";
+}
+.metro-cog:before {
+	content: "\e00a";
+}
+.metro-check:before {
+	content: "\e00b";
+}
+.metro-reload:before {
+	content: "\e00c";
+}
+.metro-send:before {
+	content: "\e00d";
+}
+.metro-link:before {
+	content: "\e00e";
+}
+.metro-feed:before {
+	content: "\e00f";
+}
+.metro-folder:before {
+	content: "\e010";
+}
+.metro-home:before {
+	content: "\e011";
+}
+.metro-files:before {
+	content: "\e012";
+}
+.metro-tumblr-sync:before {
+	content: "\e013";
+}
+.metro-tumblr-quote:before {
+	content: "\e014";
+}
+.metro-tumblr-camera:before {
+	content: "\e015";
+}
+.metro-tumblr-link:before {
+	content: "\e016";
+}
+.metro-tumblr-comments:before {
+	content: "\e017";
+}
+.metro-tumblr-audio:before {
+	content: "\e018";
+}
+.metro-tumblr-text:before {
+	content: "\e019";
+}
+.metro-tumblr-clock:before {
+	content: "\e01a";
+}
+.metro-tumblr-love:before {
+	content: "\e01b";
+}
+.metro-tumblr-infinite:before {
+	content: "\e01c";
+}
+.metro-tumblr-tag:before {
+	content: "\e01d";
+}
+.metro-tumblr-film:before {
+	content: "\e01e";
+}
+.metro-plain-refresh:before {
+	content: "\e01f";
+}
+.metro-plain-back:before {
+	content: "\e020";
+}
+.metro-plain-forward:before {
+	content: "\e021";
+}
+.metro-plain-download:before {
+	content: "\e022";
+}
+.metro-plain-upload:before {
+	content: "\e023";
+}
+.metro-plain-question:before {
+	content: "\e024";
+}
+.metro-plain-cog:before {
+	content: "\e025";
+}
+.metro-plain-gift:before {
+	content: "\e026";
+}
+.metro-plain-mail:before {
+	content: "\e027";
+}
+.metro-plan-starred:before {
+	content: "\e028";
+}
+.metro-plain-star:before {
+	content: "\e029";
+}
+.metro-plain-camcorder:before {
+	content: "\e02a";
+}
+.metro-plain-camera:before {
+	content: "\e02b";
+}
+.metro-plain-disk:before {
+	content: "\e02c";
+}
+.metro-plain-pencil:before {
+	content: "\e02d";
+}
+.metro-plain-folder:before {
+	content: "\e02e";
+}
+.metro-plain-hamburger-lg:before {
+	content: "\e02f";
+}
+.metro-plain-hamgurger:before {
+	content: "\e030";
+}
+.metro-plain-magnify:before {
+	content: "\e031";
+}
+.metro-mic-off:before {
+	content: "\e033";
+}
+.metro-back:before {
+	content: "\e034";
+}
+.metro-forward:before {
+	content: "\e035";
+}
+.metro-down:before {
+	content: "\e036";
+}
+.metro-up:before {
+	content: "\e037";
+}
+.metro-mic:before {
+	content: "\e038";
+}
+.metro-thumbs-down:before {
+	content: "\e039";
+}
+.metro-thumbs-up:before {
+	content: "\e03a";
+}
+.metro-one-note:before {
+	content: "\e03b";
+}
+.metro-word:before {
+	content: "\e03c";
+}
+.metro-office:before {
+	content: "\e03d";
+}
+.metro-excel:before {
+	content: "\e03e";
+}
+.metro-tumblr:before {
+	content: "\e03f";
+}
+.metro-linkedin:before {
+	content: "\e040";
+}
+.metro-twitter:before {
+	content: "\e041";
+}
+.metro-lastfm:before {
+	content: "\e042";
+}
+.metro-evernote:before {
+	content: "\e043";
+}
+.metro-dribbble:before {
+	content: "\e044";
+}
+.metro-wordpress:before {
+	content: "\e045";
+}
+.metro-vimeo:before {
+	content: "\e046";
+}
+.metro-youtube:before {
+	content: "\e047";
+}
+.metro-digg:before {
+	content: "\e048";
+}
+.metro-facebook:before {
+	content: "\e049";
+}
+.metro-googleplus:before {
+	content: "\e04a";
+}
+.metro-deviantart:before {
+	content: "\e04b";
+}
+.metro-rss:before {
+	content: "\e04c";
+}
+.metro-delicious:before {
+	content: "\e04d";
+}
+.metro-flickr:before {
+	content: "\e04e";
+}
+.metro-bitbucket:before {
+	content: "\e04f";
+}
+.metro-githubsolid:before {
+	content: "\e050";
+}
+.metro-github:before {
+	content: "\e051";
+}
+.metro-skydrive:before {
+	content: "\e052";
+}
+.metro-earphones:before {
+	content: "\e053";
+}
+.metro-chat:before {
+	content: "\e054";
+}
+.metro-phone:before {
+	content: "\e055";
+}
+.metro-controller:before {
+	content: "\e056";
+}
+.metro-mail:before {
+	content: "\e057";
+}
+.metro-xbox:before {
+	content: "\e058";
+}
+.metro-marketplace:before {
+	content: "\e059";
+}
+.metro-calendar:before {
+	content: "\e05a";
+}
+.metro-spotify:before {
+	content: "\e05b";
+}
+.metro-hulu:before {
+	content: "\e05c";
+}
+.metro-zune:before {
+	content: "\e05d";
+}
+.metro-disqus:before {
+	content: "\e05e";
+}
+.metro-question:before {
+	content: "\e05f";
+}
+.metro-amazon:before {
+	content: "\e060";
+}
+.metro-steam:before {
+	content: "\e061";
+}
+.metro-soundcloud:before {
+	content: "\e062";
+}
+.metro-skype:before {
+	content: "\e063";
+}
+.metro-stumbleupon:before {
+	content: "\e064";
+}
+.metro-stumbleuponold:before {
+	content: "\e065";
+}
+.metro-exclamation:before {
+	content: "\e066";
+}
