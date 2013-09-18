@@ -122,17 +122,16 @@
       "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/general.scss" : {
+    "\/assets\/js\/jquery.validate-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/general.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.validate-ck-ck.js",
+      "fileType" : 64
     },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.forms.js" : {
       "ignoreWasSetByUser" : 1,
@@ -157,6 +156,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/source\/scss\/general.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/general.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/searchform.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/searchform.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.joyride.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -180,6 +200,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/source\/js\/jquery.comments.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.comments-ck.js",
+      "fileType" : 64
+    },
     "\/functions\/css\/wp-metro.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -187,15 +218,6 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/functions\/css\/wp-metro.min.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/css\/master.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/master.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/assets\/source\/scss\/master.scss" : {
@@ -209,6 +231,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/master.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/css\/master.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/master.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -293,6 +324,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/comments.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -390,6 +430,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -498,15 +547,6 @@
       "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/zepto-ck.js",
       "fileType" : 64
     },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -530,6 +570,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
+      "fileType" : 64
+    },
     "\/functions\/js\/theme-options.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -540,6 +591,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/theme-options-ck.js",
       "fileType" : 64
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js" : {
       "ignoreWasSetByUser" : 0,
@@ -606,6 +666,13 @@
     }
   },
   "manualImportLinks" : [
+    {
+      "type" : 1,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
+      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
+      "followForSyntaxChecking" : 1
+    },
     {
       "type" : 1,
       "position" : 0,

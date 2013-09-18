@@ -39,16 +39,9 @@
 			font-weight: 700;
 		}
 
-		h2 {
-			font-family: $serif;
-			font-weight: 400;
-			font-style: italic;
-		}
-
-
 	/*  Buttons
 		========================================================================== */
-		.btn,input[type=submit],input[type=button],button[type=submit],button {
+		.btn,input[type=submit],input[type=button],button[type=submit],button,.comment-reply-link {
 			position: relative;
 			clear: both;
 			display: inline-block;
@@ -135,6 +128,7 @@
 			@include font-size(16,16);
 			color: darken($white,25%);
 			background: transparent;
+			border: none;
 			@include box-shadow (none);
 			&:hover {
 				color: $white;
@@ -151,6 +145,7 @@
 			@include font-size(16,16);
 			color: darken($white,25%);
 			background: transparent;
+			border: none;
 			@include box-shadow (none);
 			&:hover {
 				color: $white;
@@ -227,6 +222,7 @@
 						li {
 							display: inline-block;
 							position: relative;
+							width: 100%;
 						}
 					}
 				}
@@ -264,6 +260,7 @@
 				@include font-size(14,14);
 				color: lighten($text,50%);
 				background: transparent;
+				border: none;
 				@include box-shadow(none);
 				&:hover {
 					color: $text;
@@ -310,13 +307,16 @@
 				margin-top: 2em;
 			}
 
-			header {
+			> header {
 				margin-bottom: 1.5em;
 				h1 {
 					@include font-size(48,52);
 				}
 				h2 {
+					font-family: $serif;
 					@include font-size(28);
+					font-weight: 400;
+					font-style: italic;
 				}
 			}
 			.meta {
@@ -347,11 +347,8 @@
 					}
 				}
 			}
-			p {
-				@include font-size(23);
-				:last-child {
-					margin-bottom: 0;
-				}
+			p:last-child {
+				margin-bottom: 0;
 			}
 			ul,ol {
 				margin: 0 2em 1.25em 2em;
@@ -389,6 +386,12 @@
 			}
 			dl {
 				@include font-size(23,23);
+				dt {
+					font-family: $sans-serif;
+					a {
+						text-decoration: none;
+					}
+				}
 			}
 		}
 
@@ -453,9 +456,117 @@
 			}
 
 /* ===========================================================================
+	Comments
+	========================================================================== */
+	.comments {
+		font-family: $sans-serif;
+	}
+
+	.comments ol,.comment ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	ol.commentlist {
+		list-style: none;
+		margin: 0;
+		li {
+			position: relative;
+			margin: 0;
+			.wrap-comment {
+				padding-top: 1.25em;
+				padding-bottom: 1.25em;
+				padding-left: 70px;
+				border-bottom: 1px solid lighten($text,72%);
+			}
+			.gravatar {
+				position: absolute;
+				top: 1.25em;
+				left: 0;
+				img {
+					padding: 2px;
+					border: 1px solid lighten($text,72%);
+					@include border-radius(30px);
+				}
+			}
+			header {
+				@include font-size(15);
+				font-style: normal;
+				font-weight: 700;
+			}
+			header a, footer a {
+				text-decoration: none;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			footer {
+				margin-bottom: .75em;
+				@include font-size(13);
+				font-weight: 400;
+				color: lighten($text,50%);
+			}
+			.comment-content * {
+				@include font-size(16);
+			}
+			.comment-content ul,.comment-content ol {
+				margin: 0 2em 1.25em 2em;
+				li {
+					margin-bottom: .75em;
+					padding: 0;
+				}
+			}
+		}
+		> li:first-child .wrap-comment {
+			padding-top: 0;
+			.gravatar {
+				top: 0;
+			}
+		}
+	}
+
+	ul.children {
+		list-style: none;
+		padding-left: .5em;
+		border-left: 1px solid lighten($text,72%);
+	}
+
+	.reply {
+		text-align: right;
+		a {
+			@include font-size(13,13);
+			text-decoration: none;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	/*  Pingbacks & Trackbacks
+		========================================================================== */
+		ol.pingbacklist {
+			margin: 0 2em 1.25em 2em;
+			@include font-size(13);
+		}
+
+	/*  Form
+		========================================================================== */
+		.comment-respond {
+			margin-top: 2em;
+			.logged-in-as,.comment-notes {
+				@include font-size(12,12);
+				color: lighten($text,50%);
+			}
+			.form-allowed-tags {
+				@include font-size(13);
+				color: lighten($text,50%);
+			}
+		}
+
+/* ===========================================================================
 	Footer
 	========================================================================== */
-	footer {
+	footer.primary {
 		border-top: .1em solid lighten($text,70%);
 		article {
 			margin-bottom: 1em;
@@ -479,6 +590,12 @@
 			}
 			p {
 				@include font-size(20);
+				a {
+					color: $link;
+					&:hover {
+						color: $link-hover;
+					}
+				}
 			}
 		}
 		img {
@@ -542,6 +659,11 @@
 			@include font-size(14,14);
 			font-weight: 700;
 			color: lighten($text,50%);
+			&.error {
+				margin-top: -1em;
+				@include font-size(12,12);
+				color: $red;
+			}
 		}
 		input[type="text"],
 		input[type="password"],
@@ -570,5 +692,13 @@
 			&[disabled] {
 				background: lighten($text,77%);
 			}
+			&.error {
+				background: $white;
+				border-color: $red;
+			}
 		}
+	}
+
+	.required {
+		color: $red;
 	}

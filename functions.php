@@ -52,11 +52,6 @@
 	}
 	add_filter('the_excerpt', 'replace_excerpt');
 /**
- * Contact width
- */
-	if ( ! isset( $content_width ) )
-		$content_width = 755;
-/**
  * Remove caption line styling
  */
 	add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
@@ -88,36 +83,34 @@
 		. do_shortcode( $content ) . '<p class="wp-caption-text">' . $caption . '</p></div>';
 	}
 ?>
-<?php function squaredv2_pings($comment, $args, $depth) {
-	$GLOBALS['comment'] = $comment; ?>
-		<li id="comment-<?php comment_id(); ?>"><?php comment_author_link(); ?>
+<?php function respansive_pingtracks($comment, $args, $depth) { ?>
+	<li <?php comment_class(); ?> id="comment-<?php comment_ID() ?>">
+		<?php comment_author_link() ?>
 <?php } ?>
-<?php function squaredv2_comments($comment, $args, $depth) {
-	$GLOBALS['comment'] = $comment; ?>
-	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
-		<div id="comment-<?php comment_ID(); ?>">
-			<div class="avatar">
-				<?php echo get_avatar($comment,$size='66' ); ?>
+<?php function respansive_comments($comment, $args, $depth) { ?>
+	<li <?php comment_class(); ?> id="ping-<?php comment_ID() ?>">
+		<div class="wrap-comment">
+			<div class="gravatar">
+				<?php echo get_avatar($comment,$size='60' ); ?>
 			</div>
 
-			<?php if ($comment->comment_approved == '0') : ?>
-				<em><?php _e('Your comment is awaiting moderation.', 'white') ?></em>
-				<br />
-			<?php endif; ?>
+			<header class="author"><?php comment_author_link() ?></header>
 
-			<?php comment_text() ?>
+			<footer><?php comment_date('F jS, Y') ?> at <?php comment_time() ?> (<a href="#comment-<?php comment_ID() ?>" title="">#</a>) <?php edit_comment_link('edit','&nbsp;&nbsp;',''); ?>
+			</footer>
 
-			<div class="comment-meta">
-				<div class="info vcard">
-					<?php printf(__('<cite class="fn">%s</cite>, '), get_comment_author_link()) ?>
-					<?php printf(__('%1$s at %2$s', 'white'), get_comment_date(),get_comment_time()) ?><?php edit_comment_link( __( '(Edit)', 'white' ), ' ' ) ?>
-				</div>
-				<?php if($args['max_depth']!=$depth) { ?>
-				<div class="reply">
-					<?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
-				</div>
+			<div class="comment-content">
+				<?php if ($comment->comment_approved == '0') : ?>
+					<em><?php _e('Your comment is awaiting moderation.', 'white') ?></em>
+				<?php endif; ?>
+
+				<?php comment_text() ?>
+			</div>
+
+			<?php if($args['max_depth']!=$depth) { ?>
+			<div class="reply">
+				<?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+			</div>
 			<?php } ?>
-			</div>
-			<div class="clear"></div>
 		</div>
 <?php } ?>

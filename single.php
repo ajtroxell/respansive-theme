@@ -9,7 +9,7 @@
 				</div>
 			<?php } ?>
 
-		<section class="row module">
+		<div class="row module">
 			<article id="post-<?php the_ID(); ?> <?php post_class(); ?>" class="small-12 medium-10 medium-centered large-8 large-centered columns">
 				<header>
 					<ul class="meta">
@@ -18,11 +18,14 @@
 						<li><a href="<?php the_permalink(); ?>#comments" title="Comments"><?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></a></li>
 					</ul>
 					<h1><?php the_title(); ?></h1>
-					<h2><?php the_excerpt(); ?></h2>
+					<h2><?php echo get_the_excerpt(); ?></h2>
 				</header>
 					<?php the_content(); ?>
-			</article>
-		</section>
+				<section id="comments" class="comments">
+					<?php comments_template('', true); ?>
+				</section>
+        	</article>
+		</div>
 
 		<?php endwhile; else: ?>
 		<?php endif; ?>

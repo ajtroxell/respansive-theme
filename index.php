@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 	<div class="wrap-content">
 
-		<section class="row module">
+		<div class="row module">
 			<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?> <?php post_class(); ?>" class="small-12 medium-10 medium-centered large-8 large-centered columns">
-					<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+					<header>
+						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+					</header>
 					<p><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a></p>
 					<ul class="meta">
 						<li>in <?php echo get_the_category_list(', '); ?></li>
@@ -15,7 +17,7 @@
 			</article>
 			<?php endwhile; else: ?>
 			<?php endif; ?>
-		</section>
+		</div>
 
 	<div class="push"></div>
 	</div>

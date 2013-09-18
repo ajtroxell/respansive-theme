@@ -3,19 +3,24 @@
 
 		<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
-		<div class="featured-img">
-			<img src="/assets/css/images/featured/1.jpg" alt=""/>
-		</div>
+			<?php if ( has_post_thumbnail() ) { ?>
+				<div class="featured-img">
+					<?php the_post_thumbnail(); ?>
+				</div>
+			<?php } ?>
 
-		<section class="row module">
+		<div class="row module">
 			<article id="post-<?php the_ID(); ?> <?php post_class(); ?>" class="small-12 medium-10 medium-centered large-8 large-centered columns">
 				<header>
 					<h1><?php the_title(); ?></h1>
 					<h2><?php the_excerpt(); ?></h2>
 				</header>
 					<?php the_content(); ?>
+				<section id="comments" class="comments">
+					<?php comments_template('', true); ?>
+				</section>
 			</article>
-		</section>
+		</div>
 
 		<?php endwhile; else: ?>
 		<?php endif; ?>

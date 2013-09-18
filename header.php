@@ -14,7 +14,6 @@
 	<!-- Included CSS Files (Compressed) -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/master.css">
-	<link rel="stylesheet" href="/assets/css/master.css" />
 
 	<!-- Google Font -->
 	<link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
@@ -60,14 +59,9 @@
 			<button id="btn-nav-close">
 				<i class="icon-close"></i>
 			</button>
-			<form id="search">
-				<input type="text" value="Search Articles"/>
-				<button type="submit">
-					<i class="icon-search"></i>
-				</button>
-			</form>
-			<nav id="nav-primary" class="ls1" role="navigation">
+			<?php get_search_form(); ?>
+			<div id="nav-primary" class="ls1" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container' => '','menu_class' => 'menu','depth' => 2 ) ); ?>
-	        </nav>
+	        </div>
 		</div>
 	</header>
