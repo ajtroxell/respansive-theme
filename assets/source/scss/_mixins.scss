@@ -32,6 +32,11 @@
   -webkit-transition: $string;
 }
 
+@mixin transition-delay ($string) {
+         transition-delay: $string;
+ -webkit-transition-delay: $string;
+}
+
 @mixin box-shadow ($string) {
   box-shadow: $string;
   -moz-box-shadow: $string;

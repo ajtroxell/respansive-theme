@@ -46,7 +46,7 @@
 		padding: 0;
 		border: none;
 		height: .1em;
-		background: $gray;
+		background: lighten($text, 40%);
 	}
 
 	iframe {

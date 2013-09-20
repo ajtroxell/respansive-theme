@@ -3,9 +3,9 @@ jQuery(document).ready(function(){
 	jQuery('#logo_options').change(function() {
 		var logo_drop = jQuery('#logo_options option:selected').val();
 		if(logo_drop === "yes") {
-			jQuery('#squar3d_theme_options_logo_url').show();
+			jQuery('#respansive_options_logo_url').show();
 		} else {
-			jQuery('#squar3d_theme_options_logo_url').hide();
+			jQuery('#respansive_options_logo_url').hide();
 		}
 	}).change();
 

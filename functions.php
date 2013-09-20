@@ -31,6 +31,17 @@
  */
 	add_theme_support( 'automatic-feed-links' );
 /**
+ * Remove bio HTML sanitization
+ */
+	remove_filter('pre_user_description', 'wp_filter_kses');
+/**
+ * Add excerpts to pages
+ */
+	add_action( 'init', 'respansive_page_excerpts' );
+	function respansive_page_excerpts() {
+	     add_post_type_support( 'page', 'excerpt' );
+	}
+/**
  * Add magnific popup class to images
  */
 	add_filter('the_content', 'addlightboxrel_replace');

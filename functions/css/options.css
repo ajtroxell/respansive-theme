@@ -216,8 +216,8 @@
         	padding: 0;
         }
         #wps-panel-sidebar ul {
-        	text-align:
-        	left;
+        	margin-bottom: -1px;
+        	text-align: left;
         }
         #wps-panel-sidebar li {
         	display: inline-block;

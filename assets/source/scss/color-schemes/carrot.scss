@@ -1,0 +1,75 @@
+$link: #e67e22;
+$link-hover: darken(#e67e22, 8%);
+$link-visited: #e67e22;
+
+a {
+	color: $link;
+	&:visited {
+		color: $link-visited;
+	}
+	&:hover {
+		color: $link-hover;
+	}
+}
+
+.btn,input[type=submit],input[type=button],button[type=submit],button,.comment-reply-link {
+	background: $link;
+	border-color: darken($link,10%);
+	&:hover {
+		background: $link-hover;
+		border-color: darken($link-hover,10%);
+	}
+	&:active {
+		background: $link;
+	}
+	&:visited {
+		color: $link;
+		border-color: .1em solid darken($link,10%);
+	}
+}
+
+article blockquote {
+	border-color: $link;
+}
+
+
+.author-info {
+	a.author-name {
+		&:hover {
+			color: $link;
+		}
+	}
+	p {
+		a:hover {
+			color: $link;
+		}
+	}
+}
+
+footer.primary article p a {
+	color: $link;
+	&:hover {
+		color: $link-hover;
+	}
+}
+
+form {
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="week"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	textarea {
+		&:focus {
+			border-color: $link;
+		}
+	}
+}

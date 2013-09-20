@@ -1,114 +1,55 @@
-/* ----- None ----- */
 .custom{
 	background: transparent !important;
 }
 
-/* ----- None ----- */
 .default{
-	background: #25c7e9 !important;
+	background: #1ABC9C !important;
 }
 
-/* ----- Lime ----- */
-.lime{
-	background: #a4c400 !important;
+.alizarin{
+	background: #e74c3c !important;
 }
 
-/* ----- Green ----- */
-.green{
-	background: #60a917 !important;
+.amethyst{
+	background: #9b59b6 !important;
 }
 
-/* ----- Emerald ----- */
+.belize-hole{
+	background: #2980B9 !important;
+}
+
+.carrot{
+	background: #e67e22 !important;
+}
+
+.concrete{
+	background: #95A5A6 !important;
+}
+
 .emerald{
-	background: #008a00 !important;
+	background: #2ECC71 !important;
 }
 
-/* ----- Teal ----- */
-.teal{
-	background: #00aba9 !important;
-}
-
-/* ----- Cyan ----- */
-.cyan{
-	background: #1ba1e2 !important;
-}
-
-/* ----- Cobalt ----- */
-.cobalt{
-	background: #0050ef !important;
-}
-
-/* ----- Indigo ----- */
-.indigo{
-	background: #6a00ff !important;
-}
-
-/* ----- Violet ----- */
-.violet{
-	background: #aa00ff !important;
-}
-
-/* ----- Pink ----- */
-.pink{
-	background: #f472d0 !important;
-}
-
-/* ----- Magenta ----- */
-.magenta{
-	background: #d80073 !important;
-}
-
-/* ----- Crimson ----- */
-.crimson{
-	background: #a20025 !important;
-}
-
-/* ----- Red ----- */
-.red{
-	background: #e51400 !important;
-}
-
-/* ----- Orange ----- */
 .orange{
-	background: #fa6800 !important;
+	background: #F39C12 !important;
 }
 
-/* ----- Amber ----- */
-.amber{
-	background: #f0a30a !important;
+.peter-river{
+	background: #3498DB !important;
 }
 
-/* ----- Yellow ----- */
-.yellow{
-	background: #e3c800 !important;
+.pomegranate{
+	background: #C0392B !important;
 }
 
-/* ----- Brown ----- */
-.brown{
-	background: #825a2c !important;
+.pumpkin{
+	background: #D35400 !important;
 }
 
-/* ----- Olive ----- */
-.olive{
-	background: #6d8764 !important;
+.wet-asphalt{
+	background: #34495E !important;
 }
 
-/* ----- Steel ----- */
-.steel{
-	background: #647687 !important;
-}
-
-/* ----- Mauve ----- */
-.mauve{
-	background: #76608a !important;
-}
-
-/* ----- Sienna ----- */
-.sienna{
-	background: #7a3b3f !important;
-}
-
-/* ----- Taupe ----- */
-.taupe{
-	background: #87794e !important;
+.wisteria{
+	background: #8E44AD !important;
 }

@@ -11,4 +11,14 @@
 			margin-top: -1em;
 		}
 
+		.home,.archive,.page {
+			article:first-child {
+				margin-top: 5em;
+			}
+		}
+
+		article.no-thumb {
+			margin-top: 5em;
+		}
+
 	}

@@ -15,6 +15,10 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/master.css">
 
+	<?php $options = get_option('respansive_options'); if (($options['schemeinput'] == 'default')) { echo ""; } elseif (($options['schemeinput'] == 'none')) { echo ""; } else { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/assets/css/color-schemes/".$options['schemeinput'].".css'>"; } ?>
+	<?php $options = get_option('respansive_options'); if ($options['custom-stylesheet']) { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/".$options['custom-stylesheet'].".css'>"; } ?>
+	<?php $options = get_option('respansive_options'); if ($options['css_override']) { echo "<style type='text/css'>".$options['css_override']."</style>"; } ?>
+
 	<!-- Google Font -->
 	<link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -23,7 +27,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/third_party/foundation/custom.modernizr-ck.js"></script>
 
 	<!-- Fav and touch icons -->
-		<?php $options = get_option('squar3d_theme_options'); if ($options['ios144']) { echo "<link rel='apple-touch-icon' sizes='144x144' href='".$options['ios144']."'>"; } ?><?php $options = get_option('squar3d_theme_options'); if ($options['ios114']) { echo "<link rel='apple-touch-icon' sizes='114x114' href='".$options['ios114']."'>"; } ?><?php $options = get_option('squar3d_theme_options'); if ($options['ios72']) { echo "<link rel='apple-touch-icon' sizes='72x72' href='".$options['ios72']."'>"; } ?><?php $options = get_option('squar3d_theme_options'); if ($options['ios57']) { echo "<link rel='apple-touch-icon' href='".$options['ios57']."'>"; } ?><?php $options = get_option('squar3d_theme_options'); if ($options['favicon']) { echo "<link rel='shortcut icon' href='".$options['favicon']."'>"; } ?>
+		<?php $options = get_option('respansive_options'); if ($options['ios144']) { echo "<link rel='apple-touch-icon' sizes='144x144' href='".$options['ios144']."'>"; } ?><?php $options = get_option('respansive_options'); if ($options['ios114']) { echo "<link rel='apple-touch-icon' sizes='114x114' href='".$options['ios114']."'>"; } ?><?php $options = get_option('respansive_options'); if ($options['ios72']) { echo "<link rel='apple-touch-icon' sizes='72x72' href='".$options['ios72']."'>"; } ?><?php $options = get_option('respansive_options'); if ($options['ios57']) { echo "<link rel='apple-touch-icon' href='".$options['ios57']."'>"; } ?><?php $options = get_option('respansive_options'); if ($options['favicon']) { echo "<link rel='shortcut icon' href='".$options['favicon']."'>"; } ?>
 
 	<!-- Wordpress Header Scripts -->
 		<?php wp_enqueue_script('jquery'); ?>
@@ -39,7 +43,7 @@
 <div id="wrap">
 
 	<header class="header-primary">
-		<button id="btn-nav">
+		<a id="btn-nav" class="button">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/css/images/logo-header.png" alt=""/>
 			<?php if ( is_home() || is_front_page() ) {
 				echo "<h1>";
@@ -51,7 +55,7 @@
 				echo bloginfo('name');
 				echo "</h2>";
 			} ?>
-		</button>
+		</a>
 		<div id="nav-wrap-primary">
 			<button id="btn-search-open">
 				<i class="icon-search"></i>
@@ -60,8 +64,12 @@
 				<i class="icon-close"></i>
 			</button>
 			<?php get_search_form(); ?>
-			<div id="nav-primary" class="ls1" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container' => '','menu_class' => 'menu','depth' => 2 ) ); ?>
+			<a href="#" id="btn-register" class="button">
+				Get an Account!
+			</a>
+			<div id="nav-primary" class="menu ls1" role="navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container' => '','depth' => 2 ) ); ?>
 	        </div>
+	        <?php get_template_part('social'); ?>
 		</div>
 	</header>

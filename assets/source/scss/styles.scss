@@ -17,7 +17,7 @@
 
 	#wrap {
 		position: relative;
-		@include transition ((left .2s,right .2s));
+		@include transition(left .4s .4s);
 	}
 
 	.wrap-content {
@@ -41,7 +41,7 @@
 
 	/*  Buttons
 		========================================================================== */
-		.btn,input[type=submit],input[type=button],button[type=submit],button,.comment-reply-link {
+		.btn,input[type=submit],input[type=button],button[type=submit],button,.button,.comment-reply-link {
 			position: relative;
 			clear: both;
 			display: inline-block;
@@ -50,22 +50,22 @@
 			@include font-size(16,16);
 			font-weight: 500;
 			letter-spacing: 1px;
-			color: $btn-default-text;
-			background: $btn-default-bg;
+			color: $white;
+			background: $link;
 			border: none;
-			border-bottom: .1em solid darken($btn-default-bg,6%);
+			border-bottom: .1em solid darken($link,8%);
 			@include border-radius(.3em);
 			@include transition (all .2s);
 			&:hover {
-				background: $btn-default-bg-hover;
-				border-bottom: .1em solid darken($btn-default-bg-hover,6%);
+				background: $link-hover;
+				border-bottom: .1em solid darken($link-hover,8%);
 			}
 			&:active {
-				background: $btn-default-bg;
+				background: $link;
 			}
 			&:visited {
-				color: $btn-default-bg;
-				border-bottom: .1em solid darken($btn-default-bg,6%);
+				color: $link;
+				border-bottom: .1em solid darken($link,8%);
 			}
 		}
 
@@ -74,15 +74,6 @@
 			width: 100%;
 			max-width: 100%;
 			text-align: center;
-		}
-
-		.btn-white {
-			background: $white;
-			color: $blue;
-			&:hover {
-				color: lighten($blue,40%);
-				background: $white;
-			}
 		}
 
 /* ===========================================================================
@@ -98,24 +89,29 @@
 			left: .5em;
 			margin: 0;
 			padding: .6em .5em .65em .5em;
-			background: $text;
+			background: darken($text,6%);
 			border: 0em;
-			@include box-shadow (none);
-			@include transition (all .2s);
+			@include box-shadow(none);
 			@include border-radius(0em);
 			img {
 				display: block;
 				max-height: 17px;
 			}
 			&:hover {
-				background: lighten($text,5%);
-				@include transition (background .2s);
+				background: $text;
+				@include transition(background .2s);
 			}
 			h1,h2 {
 				position: absolute;
 				top: -9999em;
 				left: -9999em;
 			}
+		}
+
+		#btn-register {
+			margin: 1em auto -1em auto;
+			display: block;
+			width: 100%;
 		}
 
 		#btn-nav-close {
@@ -155,20 +151,39 @@
 			}
 		}
 
+		.tagline {
+			background: $link;
+			padding: .35em 0;
+			p {
+				margin: 0;
+				font-family: $sans-serif;
+				@include font-size(13);
+				text-align: justify;
+				color: $white;
+				a {
+					text-decoration: none;
+					border-bottom: 1px dotted $white;
+					color: $white;
+					&:hover {
+						text-decoration: none;
+						border-bottom: 1px solid $white;
+					}
+				}
+			}
+		}
+
 	/*  Primary Nav
 		========================================================================== */
 		.offcanvas {
 			#wrap {
 				left: 280px;
-				@include transition ((left .2s,right .4s));
 			}
 			#nav-wrap-primary {
 				left: 0px;
-				@include transition ((all .4s));
 			}
 			#btn-nav {
-				opacity: 0;
-				@include transition (opacity .2s);
+				left: -2.7em;
+				@include transition((left .4s,right .4s .4s));
 			}
 		}
 
@@ -184,7 +199,8 @@
 			font-family: $sans-serif;
 			font-weight: 600;
 			background: darken($text,6%);
-			ul {
+			@include transition((left .4s .4s,right .4s 0));
+			ul.menu {
 				margin: 2em 0;
 				padding: 0;
 				width: 100%;
@@ -200,7 +216,7 @@
 						}
 					}
 				}
-				li#parent-menu {
+				li.parent {
 					> a {
 						&:after {
 							position: absolute;
@@ -213,6 +229,7 @@
 						}
 					}
 					ul {
+						display: none;
 						margin: .75em 0 1.5em 0;
 						padding: 0;
 						width: auto;
@@ -229,7 +246,7 @@
 			}
 		}
 
-		.offcanvas #nav-wrap-primary {
+		#nav-wrap-primary {
 			-webkit-box-shadow: 6px 0px 0px rgba(0,0,0,0.16);
 			-moz-box-shadow: 6px 0px 0px rgba(0,0,0,0.16);
 			box-shadow: 6px 0px 0px rgba(0,0,0,0.16);
@@ -275,6 +292,7 @@
 			text-align: center;
 			li {
 				display: inline-block;
+				margin: 0 .2em .2em .2em;
 				@include font-size(25,25);
 				a {
 					color: darken($white,20%);
@@ -303,18 +321,15 @@
 		}
 		article {
 			margin-bottom: 2em;
-			&:first-child {
-				margin-top: 2em;
-			}
-
 			> header {
 				margin-bottom: 1.5em;
 				h1 {
+					margin-bottom: .2em;
 					@include font-size(48,52);
 				}
 				h2 {
 					font-family: $serif;
-					@include font-size(28);
+					@include font-size(28,32);
 					font-weight: 400;
 					font-style: italic;
 				}
@@ -393,9 +408,24 @@
 					}
 				}
 			}
+			blockquote {
+				font-style: italic;
+				color: lighten($text,40%);
+				border-left: 3px solid $link;
+				p {
+					color: lighten($text,40%);
+					&:last-child {
+						margin-bottom: 1.25em;
+					}
+				}
+			}
 		}
 
-		.home article {
+		.single article,.page article {
+			margin-top: 2em;
+		}
+
+		.home article,.archive article {
 			margin-bottom: 0;
 			padding-top: 2em;
 			padding-bottom: 2em;
@@ -426,6 +456,60 @@
 			}
 		}
 
+		/*  Authors
+			========================================================================== */
+			.author-box {
+				display: inline-block;
+				img {
+					padding: 2px;
+					border: 1px solid lighten($text,72%);
+					@include border-radius(30px);
+				}
+			}
+
+			.home .author-box,.archive .author-box,.single .author-box {
+				float: right;
+				margin-left: 1em;
+				margin-bottom: 1em;
+			}
+
+			.author-info {
+				margin: 1em 0;
+				padding-top: .9375em;
+				padding-bottom: .9375em;
+				img {
+					float: left;
+					margin-right: 1em;
+					padding: 2px;
+					border: 1px solid lighten($text,72%);
+					@include border-radius(40px);
+				}
+				a.author-name {
+					display: block;
+					font-family: $sans-serif;
+					@include font-size(14);
+					font-weight: 700;
+					text-decoration: none;
+					color: $text;
+					&:hover {
+						color: $link;
+					}
+				}
+				p {
+					@include font-size(15,18);
+					font-style: italic;
+					color: lighten($text, 20%);
+					a {
+						text-decoration: none;
+						color: $text;
+						&:hover {
+							color: $link;
+						}
+					}
+				}
+			}
+
+
 		/*  Captions
 			========================================================================== */
 			.wp-caption {
@@ -455,10 +539,41 @@
 				}
 			}
 
+		/*  Tags
+			========================================================================== */
+			.tags {
+				margin: 1.25em 1em 0 1em;
+				font-family: $sans-serif;
+				font-weight: 700;
+				h4 {
+					display: inline-block;
+					margin: 0 1.25em 0 0;
+					@include font-size(12,12);
+					color: lighten($text,20%);
+				}
+				ul {
+					display: inline;
+					margin: 0;
+					list-style: none;
+					@include font-size(12,12);
+					li {
+						display: inline-block;
+						margin-right: 1.25em;
+						&:last-child {
+							margin-bottom: 1.25em;
+						}
+						a {
+							text-decoration: none;
+						}
+					}
+				}
+			}
+
 /* ===========================================================================
 	Comments
 	========================================================================== */
 	.comments {
+		margin-top: 2.25em;
 		font-family: $sans-serif;
 	}
 
@@ -523,6 +638,9 @@
 				top: 0;
 			}
 		}
+		li:last-child {
+			margin-bottom: 2em;
+		}
 	}
 
 	ul.children {
@@ -552,7 +670,6 @@
 	/*  Form
 		========================================================================== */
 		.comment-respond {
-			margin-top: 2em;
 			.logged-in-as,.comment-notes {
 				@include font-size(12,12);
 				color: lighten($text,50%);
@@ -569,6 +686,7 @@
 	footer.primary {
 		border-top: .1em solid lighten($text,70%);
 		article {
+			margin-top: 1em;
 			margin-bottom: 1em;
 			padding-bottom: 2em;
 			border-bottom: .1em solid lighten($text,72%);
@@ -622,9 +740,6 @@
 			}
 			&:last-child {
 				float: right;
-			}
-			&:only-child {
-				float: left;
 			}
 		}
 		.wp-pagenavi a,.wp-pagenavi span {
@@ -680,13 +795,14 @@
 		input[type="url"],
 		textarea {
 			margin-bottom: 1.25em;
+			font-family: $sans-serif;
 			@include font-size(14,14);
 			@include box-shadow(none);
 			border: .2em solid lighten($text,65%);
 			@include border-radius(.3em);
 			@include transition (all .3s);
 			&:focus {
-				border: .2em solid $form-input-border-focus;
+				border: .2em solid $link;
 				@include box-shadow(none);
 			}
 			&[disabled] {

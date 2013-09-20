@@ -2,46 +2,81 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
-    "\/assets\/source\/js\/jquery.master.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.master-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js" : {
+    "\/assets\/source\/scss\/third_party\/fonts\/respansive\/respansive.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/loadcomplete-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/fonts\/respansive\/respansive.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/css\/respansive.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/header.php" : {
+    "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
+      "inputAbbreviatedPath" : "\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js" : {
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js",
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.magellan-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.tooltips-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.throttledresize-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/scss\/color-schemes\/pomegranate.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/pomegranate.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/pomegranate.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/js\/jquery.functions.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.functions.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.functions-ck.js",
       "fileType" : 64
     },
     "\/assets\/source\/scss\/alignment.scss" : {
@@ -56,37 +91,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/source\/scss\/third_party\/fonts\/respansive\/respansive.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/fonts\/respansive\/respansive.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/css\/respansive.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/js\/jquery.functions.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.functions.js",
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.functions-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.magellan-ck.js",
       "fileType" : 64
     },
-    "\/index.html" : {
+    "\/assets\/source\/js\/jquery.master.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.master-ck.js",
+      "fileType" : 64
     },
     "\/assets\/source\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -100,37 +125,24 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/jquery\/jquery.js" : {
+    "\/assets\/css\/color-schemes\/pumpkin.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/pumpkin.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/assets\/js\/jquery.validate-ck.js" : {
+    "\/functions\/js\/theme-options.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
+      "inputAbbreviatedPath" : "\/functions\/js\/theme-options.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.validate-ck-ck.js",
+      "outputAbbreviatedPath" : "\/js\/theme-options-ck.js",
       "fileType" : 64
     },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.forms.js" : {
@@ -144,15 +156,97 @@
       "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.forms-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss" : {
+    "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/loadcomplete-ck.js",
+      "fileType" : 64
+    },
+    "\/functions\/css\/options.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions\/css\/options.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/css\/color-schemes\/belize-hole.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/belize-hole.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/js\/jquery.validate-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.validate-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/scss\/color-schemes\/orange.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/orange.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/orange.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/color-schemes\/wet-asphalt.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/wet-asphalt.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation-medium.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/scss\/element-resets.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/element-resets.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/element-resets.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -168,14 +262,59 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/searchform.php" : {
+    "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/searchform.php",
+      "inputAbbreviatedPath" : "\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation_original.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation_original.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/color-schemes\/amethyst.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/amethyst.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/scss\/responsive.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/responsive.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/responsive.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/scss\/color-schemes\/amethyst.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/amethyst.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/amethyst.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/source\/js\/third_party\/foundation\/foundation.joyride.js" : {
       "ignoreWasSetByUser" : 1,
@@ -188,35 +327,33 @@
       "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.joyride-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/third_party\/fonts\/wp-metro\/wp-metro.scss" : {
+    "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/fonts\/wp-metro\/wp-metro.scss",
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/css\/wp-metro.css",
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/source\/js\/jquery.comments.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.comments-ck.js",
-      "fileType" : 64
-    },
-    "\/functions\/css\/wp-metro.min.css" : {
+    "\/searchform.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions\/css\/wp-metro.min.css",
+      "inputAbbreviatedPath" : "\/searchform.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/css\/color-schemes\/orange.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/orange.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -232,6 +369,61 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/source\/scss\/color-schemes\/pumpkin.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/pumpkin.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/pumpkin.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/images\/logo-header.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
+      "initialSize" : 6936,
+      "fileType" : 8192
+    },
+    "\/functions\/css\/color-schemes.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions\/css\/color-schemes.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/css\/images\/featured\/1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
+      "initialSize" : 59371,
+      "fileType" : 4096
+    },
+    "\/assets\/source\/scss\/color-schemes\/emerald.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/emerald.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/emerald.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/css\/master.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -241,26 +433,199 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js" : {
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js",
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.min-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.dropdown-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/responsive.scss" : {
+    "\/assets\/css\/color-schemes\/wisteria.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/responsive.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/wisteria.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/functions\/css\/wp-metro.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions\/css\/wp-metro.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/zepto.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/zepto.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/zepto-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation-ck.js",
+      "fileType" : 64
+    },
+    "\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/comments.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.orbit-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.section-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/theme-options-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/theme-options-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/theme-options-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/functions\/theme-options.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions\/theme-options.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/scss\/third_party\/fonts\/wp-metro\/wp-metro.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/fonts\/wp-metro\/wp-metro.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/responsive.css",
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/css\/wp-metro.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/scss\/_variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/_variables.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_variables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.clearing-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/css\/color-schemes\/carrot.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/carrot.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.cookie-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/css\/color-schemes\/alizarin.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/alizarin.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/scss\/color-schemes\/concrete.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/concrete.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/concrete.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -275,28 +640,151 @@
       "outputAbbreviatedPath" : "\/js\/jquery.master-ck-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js" : {
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js",
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.clearing-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.alerts-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss" : {
+    "\/assets\/css\/color-schemes\/peter-river.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/peter-river.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/css\/color-schemes\/concrete.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/concrete.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/source\/scss\/modifiers.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/modifiers.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/modifiers.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/custom-register.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/custom-register.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/css\/color-schemes\/emerald.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/emerald.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/js\/custom.modernizr-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/scss\/color-schemes\/peter-river.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/peter-river.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/peter-river.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.min-ck.js",
+      "fileType" : 64
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/source\/scss\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/styles.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/styles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/scss\/color-schemes\/alizarin.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/alizarin.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/alizarin.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/js\/third_party\/jquery\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery-ck.js",
+      "fileType" : 64
     },
     "\/single.php" : {
       "ignoreWasSetByUser" : 0,
@@ -318,21 +806,104 @@
       "outputAbbreviatedPath" : "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js",
       "fileType" : 64
     },
-    "\/page.php" : {
+    "\/assets\/source\/scss\/color-schemes\/wet-asphalt.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/wet-asphalt.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/wet-asphalt.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
-    "\/comments.php" : {
+    "\/assets\/source\/js\/jquery.comments.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/jquery.comments-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/scss\/color-schemes\/belize-hole.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/belize-hole.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/belize-hole.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.hoverIntent-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.placeholder-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/source\/scss\/color-schemes\/carrot.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/carrot.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/carrot.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/scss\/third_party\/foundation\/normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/normalize.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.reveal-ck.js",
+      "fileType" : 64
+    },
+    "\/social.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/comments.php",
+      "inputAbbreviatedPath" : "\/social.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -347,332 +918,29 @@
       "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.topbar-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/third_party\/foundation\/normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/normalize.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/scss\/element-resets.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/element-resets.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/element-resets.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.orbit-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.placeholder-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.throttledresize-ck.js",
-      "fileType" : 64
-    },
-    "\/functions\/css\/squar3d.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions\/css\/squar3d.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.alerts-ck.js",
-      "fileType" : 64
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/css\/images\/logo-header.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
-      "initialSize" : 6936,
-      "fileType" : 8192
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.cookie-ck.js",
-      "fileType" : 64
-    },
-    "\/functions\/css\/color-schemes.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions\/css\/color-schemes.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.reveal-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/scss\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/styles.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/single.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/css\/images\/featured\/1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
-      "initialSize" : 59371,
-      "fileType" : 4096
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.tooltips-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/zepto.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/zepto.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/zepto-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.section-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/scss\/_variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/_variables.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js" : {
+    "\/assets\/source\/scss\/color-schemes\/wisteria.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/jquery.validate-ck.js",
-      "fileType" : 64
-    },
-    "\/functions\/js\/theme-options.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions\/js\/theme-options.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/theme-options-ck.js",
-      "fileType" : 64
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.hoverIntent-ck.js",
-      "fileType" : 64
-    },
-    "\/functions\/theme-options.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions\/theme-options.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/footer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/js\/custom.modernizr-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.dropdown-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/scss\/modifiers.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/modifiers.scss",
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/wisteria.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/modifiers.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/wisteria.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/css\/color-schemes\/pomegranate.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/pomegranate.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     }
   },
   "manualImportLinks" : [
-    {
-      "type" : 1,
-      "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
-      "followForSyntaxChecking" : 1
-    },
     {
       "type" : 1,
       "position" : 0,
@@ -713,6 +981,13 @@
       "position" : 5,
       "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.functions.js",
       "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
+      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
       "followForSyntaxChecking" : 1
     }
   ],

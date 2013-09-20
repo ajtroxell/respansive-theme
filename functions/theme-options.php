@@ -7,11 +7,11 @@ add_action( 'admin_menu', 'theme_options_add_page' );
  * Init plugin options to white list our options
  */
 function theme_options_init(){
-	register_setting( 'squar3d_options', 'squar3d_theme_options', 'theme_options_validate' );
+	register_setting( 'respansive_options', 'respansive_options', 'theme_options_validate' );
 }
 
 function admin_register_head() {
-    $style = get_template_directory_uri() . '/functions/css/squar3d.css';
+    $style = get_template_directory_uri() . '/functions/css/options.css';
     echo "<link rel='stylesheet' type='text/css' href='$style' />\n";
 
     $icons = get_template_directory_uri() . '/functions/css/wp-metro.min.css';
@@ -30,135 +30,68 @@ add_action('admin_head', 'admin_register_head');
  * Load up the menu page
  */
 function theme_options_add_page() {
-	add_theme_page( __( 'Theme Options', 'squar3d-v2' ), __( 'Theme Options', 'squar3d-v2' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
+	add_theme_page( __( 'Theme Options', 'respansive' ), __( 'Theme Options', 'respansive' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
 }
 
-/**
- * Create array for logo control
- */
-$logo_options = array(
-	'0' => array(
-		'value' =>	'yes',
-		'label' => __( 'yes', 'squar3d' )
-	),
-	'1' => array(
-		'value' =>	'no',
-		'label' => __( 'no', 'squar3d' )
-	)
-);
 /**
  * Create array for our color schemes
  */
 $select_options = array(
 	'0' => array(
 		'value' =>	'default',
-		'label' => __( 'default - #25c7e9', 'squar3d' )
+		'label' => __( 'default - #1abc9c', 'respansive' )
 	),
 	'1' => array(
 		'value' =>	'custom',
-		'label' => __( 'custom', 'squar3d' )
+		'label' => __( 'custom', 'respansive' )
 	),
 	'2' => array(
-		'value' =>	'lime',
-		'label' => __( 'lime - #a4c400', 'squar3d' )
+		'value' =>	'alizarin',
+		'label' => __( 'alizarin - #e74c3c', 'respansive' )
 	),
 	'3' => array(
-		'value' => 'green',
-		'label' => __( 'green - #60a917', 'squar3d' )
+		'value' => 'amethyst',
+		'label' => __( 'amethyst - #9b59b6', 'respansive' )
 	),
 	'4' => array(
-		'value' => 'emerald',
-		'label' => __( 'emerald - #008a00', 'squar3d' )
+		'value' => 'belize-hole',
+		'label' => __( 'belize hole - #2980B9', 'respansive' )
 	),
 	'5' => array(
-		'value' => 'teal',
-		'label' => __( 'teal - #00aba9', 'squar3d' )
+		'value' => 'carrot',
+		'label' => __( 'carrot - #e67e22', 'respansive' )
 	),
 	'6' => array(
-		'value' => 'cyan',
-		'label' => __( 'cyan - #1ba1e2', 'squar3d' )
+		'value' => 'concrete',
+		'label' => __( 'concrete - #95A5A6', 'respansive' )
 	),
 	'7' => array(
-		'value' => 'cobalt',
-		'label' => __( 'cobalt - #0050ef', 'squar3d' )
+		'value' => 'emerald',
+		'label' => __( 'emerald - #2ECC71', 'respansive' )
 	),
 	'8' => array(
-		'value' => 'indigo',
-		'label' => __( 'indigo - #6a00ff', 'squar3d' )
+		'value' => 'orange',
+		'label' => __( 'orange - #F39C12', 'respansive' )
 	),
 	'9' => array(
-		'value' => 'violet',
-		'label' => __( 'violet - #aa00ff', 'squar3d' )
+		'value' => 'peter-river',
+		'label' => __( 'peter river - #3498DB', 'respansive' )
 	),
 	'10' => array(
-		'value' => 'pink',
-		'label' => __( 'pink - #f472d0', 'squar3d' )
+		'value' => 'pomegranate',
+		'label' => __( 'pomegranate - #C0392B', 'respansive' )
 	),
 	'11' => array(
-		'value' => 'magenta',
-		'label' => __( 'magenta - #d80073', 'squar3d' )
+		'value' => 'pumpkin',
+		'label' => __( 'pumpkin - #D35400', 'respansive' )
 	),
 	'12' => array(
-		'value' => 'crimson',
-		'label' => __( 'crimson - #a20025', 'squar3d' )
+		'value' => 'wet-asphalt',
+		'label' => __( 'wet asphalt - #34495E', 'respansive' )
 	),
 	'13' => array(
-		'value' => 'red',
-		'label' => __( 'red - #e51400', 'squar3d' )
-	),
-	'13' => array(
-		'value' => 'orange',
-		'label' => __( 'orange - #fa6800', 'squar3d' )
-	),
-	'15' => array(
-		'value' => 'amber',
-		'label' => __( 'amber - #f0a30a', 'squar3d' )
-	),
-	'16' => array(
-		'value' => 'yellow',
-		'label' => __( 'yellow - #e3c800', 'squar3d' )
-	),
-	'17' => array(
-		'value' => 'brown',
-		'label' => __( 'brown - #825a2c', 'squar3d' )
-	),
-	'18' => array(
-		'value' => 'olive',
-		'label' => __( 'olive - #6d8764', 'squar3d' )
-	),
-	'19' => array(
-		'value' => 'steel',
-		'label' => __( 'steel - #647687', 'squar3d' )
-	),
-	'20' => array(
-		'value' => 'mauve',
-		'label' => __( 'mauve - #76608a', 'squar3d' )
-	),
-	'21' => array(
-		'value' => 'sienna',
-		'label' => __( 'sienna - #7a3b3f', 'squar3d' )
-	),
-	'22' => array(
-		'value' => 'taupe',
-		'label' => __( 'taupe - #87794e', 'squar3d' )
-	)
-);
-
-/**
- * Create array for search position
- */
-$search_options = array(
-	'0' => array(
-		'value' =>	'above',
-		'label' => __( 'above header', 'squar3d' )
-	),
-	'1' => array(
-		'value' =>	'below',
-		'label' => __( 'below main navigation', 'squar3d' )
-	),
-	'2' => array(
-		'value' =>	'none',
-		'label' => __( 'do not display', 'squar3d' )
+		'value' => 'wisteria',
+		'label' => __( 'wisteria - #8E44AD', 'respansive' )
 	)
 );
 
@@ -168,11 +101,25 @@ $search_options = array(
 $tagline_options = array(
 	'0' => array(
 		'value' =>	'yes',
-		'label' => __( 'yes', 'squar3d' )
+		'label' => __( 'yes', 'respansive' )
 	),
 	'1' => array(
 		'value' =>	'no',
-		'label' => __( 'no', 'squar3d' )
+		'label' => __( 'no', 'respansive' )
+	)
+);
+
+/**
+ * Create array for author-box control
+ */
+$author_options = array(
+	'0' => array(
+		'value' =>	'yes',
+		'label' => __( 'yes', 'respansive' )
+	),
+	'1' => array(
+		'value' =>	'no',
+		'label' => __( 'no', 'respansive' )
 	)
 );
 
@@ -181,7 +128,7 @@ $tagline_options = array(
  * Create the options page
  */
 function theme_options_do_page() {
-	global $select_options, $search_options, $tagline_options, $logo_options;
+	global $select_options, $search_options, $tagline_options, $author_options, $logo_options;
 
 	if ( ! isset( $_REQUEST['settings-updated'] ) )
 		$_REQUEST['settings-updated'] = false;
@@ -189,10 +136,10 @@ function theme_options_do_page() {
 	?>
 
 	<div class="wrap">
-		<?php screen_icon(); echo "<h2>" . wp_get_theme() . __( ' Theme Options', 'squar3d-v2' ) . "</h2>"; ?>
+		<?php screen_icon(); echo "<h2>" . wp_get_theme() . __( ' Theme Options', 'respansive' ) . "</h2>"; ?>
 
 		<?php if ( false !== $_REQUEST['settings-updated'] ) : ?>
-		<div class="updated fade"><p><strong><?php _e( 'Options saved', 'squar3d-v2' ); ?></strong></p></div>
+		<div class="updated fade"><p><strong><?php _e( 'Options saved', 'respansive' ); ?></strong></p></div>
 		<?php endif; ?>
 
 		<div id="wps-panel">
@@ -209,8 +156,8 @@ function theme_options_do_page() {
 	    	<div id="wps-panel-content">
 
 		<form method="post" action="options.php">
-			<?php settings_fields( 'squar3d_options' ); ?>
-			<?php $options = get_option( 'squar3d_theme_options' ); ?>
+			<?php settings_fields( 'respansive_options' ); ?>
+			<?php $options = get_option( 'respansive_options' ); ?>
 
 				<?php
 				/**
@@ -220,26 +167,8 @@ function theme_options_do_page() {
 			<div class="wps-panel-section" id="wps-panel-section-general">
 
 				<div class="section squared">
-					<h3><?php _e( 'Logo', 'squar3d-v2' ); ?></h3>
-					<label class="description" for="squar3d_theme_options[logoinput]"><?php _e( 'Show logo image?', 'squar3d' ); ?></label>
-					<select name="squar3d_theme_options[logoinput]" id="logo_options">
-						<?php
-							$selected = $options['logoinput'];
-							$p = '';
-							$r = '';
-
-							foreach ( $logo_options as $option ) {
-								$label = $option['label'];
-								if ( $selected == $option['value'] ) // Make default first in list
-									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-								else
-									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-							}
-							echo $p . $r;
-						?>
-					</select>
-					<p>If you do not want to use a logo image your title will be shown via an H1 tag for the home page and H2 tag for subsequent pages.</p>
-					<div id="squar3d_theme_options_logo_url">
+					<h3><?php _e( 'Logo', 'respansive' ); ?></h3>
+					<div id="respansive_options_logo_url">
 						<?php 
 							$logo = array( array( 
 								"Input" => "logo", 
@@ -247,13 +176,13 @@ function theme_options_do_page() {
 							)
 						);
 							foreach ( $logo as $input ) {
-							echo "<p><label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='squar3d_theme_options[".$input['Input']."]' class='regular-text' type='text' name='squar3d_theme_options[".$input['Input']."]' value='";
+							echo "<p><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='respansive_options[".$input['Input']."]' class='regular-text' type='text' name='respansive_options[".$input['Input']."]' value='";
 							echo esc_attr_e( $options[$input['Input']] );
 							echo "' /></p>";
 						} ?>
 					</div>
 
-					<h3><?php _e( 'Other Images', 'squar3d-v2' ); ?></h3>
+					<h3><?php _e( 'Other Images', 'respansive' ); ?></h3>
 					<?php 
 						$images = array( array(
 							"Input" => "favicon", 
@@ -277,30 +206,10 @@ function theme_options_do_page() {
 						)
 					);
 						foreach ( $images as $input ) {
-						echo "<p><label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='squar3d_theme_options[".$input['Input']."]' class='regular-text' type='text' name='squar3d_theme_options[".$input['Input']."]' value='";
+						echo "<p><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='respansive_options[".$input['Input']."]' class='regular-text' type='text' name='respansive_options[".$input['Input']."]' value='";
 						echo esc_attr_e( $options[$input['Input']] );
 						echo "' /></p>";
 					} ?>
-				</div>
-				<div class="section squared">
-					<h3><?php _e( 'Search Field Placement', 'squar3d-v2' ); ?></h3>
-					<label class="description" for="squar3d_theme_options[searchinput]"><?php _e( 'Select a position:', 'squar3d' ); ?></label>
-					<select name="squar3d_theme_options[searchinput]">
-						<?php
-							$selected = $options['searchinput'];
-							$p = '';
-							$r = '';
-
-							foreach ( $search_options as $option ) {
-								$label = $option['label'];
-								if ( $selected == $option['value'] ) // Make default first in list
-									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-								else
-									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-							}
-							echo $p . $r;
-						?>
-					</select>
 				</div>
 
 			</div><!-- #wps-panel-section-general -->
@@ -313,9 +222,9 @@ function theme_options_do_page() {
 				 */
 				?>
 				<div class="section squared">
-					<h3><?php _e( 'Color Scheme', 'squar3d-v2' ); ?></h3>
-					<label class="description" for="squar3d_theme_options[schemeinput]"><?php _e( 'Select a color scheme:', 'squar3d' ); ?></label>
-					<select id="color_scheme" name="squar3d_theme_options[schemeinput]">
+					<h3><?php _e( 'Color Scheme', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[schemeinput]"><?php _e( 'Select a color scheme:', 'respansive' ); ?></label>
+					<select id="color_scheme" name="respansive_options[schemeinput]">
 						<?php
 							$selected = $options['schemeinput'];
 							$p = '';
@@ -338,21 +247,21 @@ function theme_options_do_page() {
 					</div>
 				</div>
 				<div class="section squared">
-					<h3><?php _e( 'Custom Stylesheet', 'squar3d-v2' ); ?></h3>
+					<h3><?php _e( 'Custom Stylesheet', 'respansive' ); ?></h3>
 					<?php 
 						$stylesheet = array( array(
 							"Input" => "custom-stylesheet", 
-							"Label" => 'Stylesheet Filename (upload to "squar3d" theme folder):'
+							"Label" => 'Stylesheet Filename (upload to "respansive" theme folder):'
 						)
 					);
 						foreach ( $stylesheet as $input ) {
-						echo "<label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='color_scheme_custom' class='regular-text' type='text' name='squar3d_theme_options[".$input['Input']."]' value='";
+						echo "<label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='color_scheme_custom' class='regular-text' type='text' name='respansive_options[".$input['Input']."]' value='";
 						echo esc_attr_e( $options[$input['Input']] );
 						echo "' />";
 					} ?>
 				</div>
 				<div class="section squared">
-					<h3><?php _e( 'CSS Overrides', 'squar3d-v2' ); ?></h3>
+					<h3><?php _e( 'CSS Overrides', 'respansive' ); ?></h3>
 					<?php 
 						$css_override = array( array(
 							"Input" => "css_override", 
@@ -360,15 +269,15 @@ function theme_options_do_page() {
 						)
 					);
 						foreach ( $css_override as $input ) {
-						echo "<p><label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><br/><textarea id='squar3d_theme_options[".$input['Input']."]' class='textarea' name='squar3d_theme_options[".$input['Input']."]'>";
+						echo "<p><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><textarea id='respansive_options[".$input['Input']."]' class='textarea' name='respansive_options[".$input['Input']."]'>";
 						echo esc_attr_e( $options[$input['Input']] );
 						echo "</textarea>";
 					} ?>
 				</div>
 				<div class="section squared">
-					<h3><?php _e( 'Show site tagline under logo?', 'squar3d-v2' ); ?></h3>
-					<label class="description" for="squar3d_theme_options[taglineinput]"><?php _e( 'Yes or No:', 'squar3d' ); ?></label>
-					<select name="squar3d_theme_options[taglineinput]">
+					<h3><?php _e( 'Show site tagline on home page?', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[taglineinput]"><?php _e( 'Yes or No:', 'respansive' ); ?></label>
+					<select name="respansive_options[taglineinput]">
 						<?php
 							$selected = $options['taglineinput'];
 							$p = '';
@@ -385,7 +294,26 @@ function theme_options_do_page() {
 						?>
 					</select>
 					<p>This is the tagline assigned on the <a href="/wp-admin/options-general.php">General Settings</a> page.</p>
+				</div>
+				<div class="section squared">
+					<h3><?php _e( 'Show author image and bio on posts?', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[authorinput]"><?php _e( 'Yes or No:', 'respansive' ); ?></label>
+					<select name="respansive_options[authorinput]">
+						<?php
+							$selected = $options['authorinput'];
+							$p = '';
+							$r = '';
 
+							foreach ( $tagline_options as $option ) {
+								$label = $option['label'];
+								if ( $selected == $option['value'] ) // Make default first in list
+									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+								else
+									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+							}
+							echo $p . $r;
+						?>
+					</select>
 				</div>
 
 			</div><!-- #wps-panel-section-appearance -->
@@ -398,7 +326,7 @@ function theme_options_do_page() {
 				 */
 				?>
 				<div class="section squared">
-					<h3><?php _e( 'Footer Social Icons', 'squar3d-v2' ); ?></h3>
+					<h3><?php _e( 'Social Icons', 'respansive' ); ?></h3>
 
 					<?php 
 						$icons = array( array(
@@ -593,7 +521,7 @@ function theme_options_do_page() {
 						)
 					);
 						foreach ( $icons as $input ) {
-						echo "<div id='".$input['Input']."' class='metro-icon'><i class='".$input['Icon']."'></i><label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><input id='squar3d_theme_options[".$input['Input']."]' class='regular-text' type='text' name='squar3d_theme_options[".$input['Input']."]' value='";
+						echo "<div id='".$input['Input']."' class='metro-icon'><i class='".$input['Icon']."'></i><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><input id='respansive_options[".$input['Input']."]' class='regular-text' type='text' name='respansive_options[".$input['Input']."]' value='";
 						echo esc_attr_e( $options[$input['Input']] );
 						echo "' /></div>";
 					} ?>
@@ -611,12 +539,12 @@ function theme_options_do_page() {
 				 */
 				?>
 				<div class="section squared">
-					<h3><?php _e( 'Footer Options', 'squar3d-v2' ); ?></h3>
+					<h3><?php _e( 'Footer Options', 'respansive' ); ?></h3>
 
 					<?php 
 						$footer = array( array(
 							"Input" => "footer-text", 
-							"Label" => "Insert Text Right of Copyright (HTML allowed):"
+							"Label" => "Insert text to the right of the Copyright (HTML allowed):"
 							),
 						array(
 							"Input" => "google-analytics", 
@@ -624,7 +552,7 @@ function theme_options_do_page() {
 						)
 					);
 						foreach ( $footer as $input ) {
-						echo "<p><label class='description' for='squar3d_theme_options[".$input['Input']."]'>".$input['Label']."</label><br/><textarea id='squar3d_theme_options[".$input['Input']."]' class='textarea' name='squar3d_theme_options[".$input['Input']."]'>";
+						echo "<p><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><textarea id='respansive_options[".$input['Input']."]' class='textarea' name='respansive_options[".$input['Input']."]'>";
 						echo esc_attr_e( $options[$input['Input']] );
 						echo "</textarea>";
 					} ?>
@@ -638,7 +566,7 @@ function theme_options_do_page() {
 	</div><!-- #wps_panel -->
 
 			<p class="submit">
-				<input type="submit" class="button-primary" value="<?php _e( 'Save Options', 'squar3d-v2' ); ?>" />
+				<input type="submit" class="button-primary" value="<?php _e( 'Save Options', 'respansive' ); ?>" />
 			</p>
 		</form>
 	</div>
@@ -649,7 +577,7 @@ function theme_options_do_page() {
  * Sanitize and validate input. Accepts an array, return a sanitized array.
  */
 function theme_options_validate( $input ) {
-	global $select_options, $search_options, $tagline_options, $logo_options;
+	global $select_options, $tagline_options, $logo_options;
 
 	// Say our text option must be safe text with no HTML tags
 	$inputValidateArray;
@@ -710,10 +638,8 @@ function theme_options_validate( $input ) {
 		$input[$value] = $input[$value];
 	}
 
-	$input['searchinput'] = $input['searchinput'];
 	$input['schemeinput'] = $input['schemeinput'];
 	$input['taglineinput'] = $input['taglineinput'];
-	$input['logoinput'] = $input['logoinput'];
 
 	return $input;
 }
