@@ -22,7 +22,7 @@
 					<header>
 						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 					</header>
-					<p><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a></p>
+					<p><a href="<?php the_permalink(); ?>"><?php echo get_the_excerpt(); ?></a></p>
 					<ul class="meta">
 						<li>in <?php echo get_the_category_list(', '); ?></li>
 						<li>on <?php the_time('F j, Y'); ?></li>

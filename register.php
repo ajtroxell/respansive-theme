@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Sign in
+ Template Name: Register
  */
 get_header(); ?>
 
@@ -18,7 +18,7 @@ get_header(); ?>
 			<article id="post-<?php the_ID(); ?> <?php post_class(); ?>" class="small-12 medium-10 medium-centered large-8 large-centered columns">
 				<header>
 					<h1><?php the_title(); ?></h1>
-					<h2><?php the_excerpt(); ?></h2>
+					<h2><?php echo get_the_excerpt(); ?></h2>
 				</header>
 					<?php the_content(); ?>
 					<form action="<?php echo site_url('wp-login.php?action=register', 'login_post') ?>" method="post" class="register">  
@@ -27,6 +27,7 @@ get_header(); ?>
 			            <?php do_action('register_form'); ?>  
 			            <input type="submit" value="Register" id="register" />  
 					</form>
+					<small>After registration you are classified as a subscriber and can complete your profile, but you will not be able to make any posts until an administrator has approved your account. Sorry about this, but the world is just too spammy.</small>
 				<section id="comments" class="comments">
 					<?php comments_template('', true); ?>
 				</section>

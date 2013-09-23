@@ -12,7 +12,7 @@ a {
 	}
 }
 
-.btn,input[type=submit],input[type=button],button[type=submit],button,.comment-reply-link {
+.btn,input[type=submit],input[type=button],button[type=submit],button,.button,.comment-reply-link {
 	background: $link;
 	border-color: darken($link,10%);
 	&:hover {
@@ -23,15 +23,17 @@ a {
 		background: $link;
 	}
 	&:visited {
-		color: $link;
-		border-color: .1em solid darken($link,10%);
+		border-color: darken($link,10%);
 	}
+}
+
+.tagline {
+	background: $link;
 }
 
 article blockquote {
 	border-color: $link;
 }
-
 
 .author-info {
 	a.author-name {

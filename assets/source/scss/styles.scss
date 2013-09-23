@@ -45,6 +45,7 @@
 			position: relative;
 			clear: both;
 			display: inline-block;
+			margin-bottom: 1em;
 			padding: .6em 1.6em;
 			font-family: $sans-serif;
 			@include font-size(16,16);
@@ -56,6 +57,7 @@
 			border-bottom: .1em solid darken($link,8%);
 			@include border-radius(.3em);
 			@include transition (all .2s);
+			@include box-shadow(none);
 			&:hover {
 				background: $link-hover;
 				border-bottom: .1em solid darken($link-hover,8%);
@@ -64,7 +66,7 @@
 				background: $link;
 			}
 			&:visited {
-				color: $link;
+				color: $white;
 				border-bottom: .1em solid darken($link,8%);
 			}
 		}
@@ -419,9 +421,12 @@
 					}
 				}
 			}
+			small {
+				font-family: $sans-serif;
+			}
 		}
 
-		.single article,.page article {
+		.single article,.page article,.search article {
 			margin-top: 2em;
 		}
 
@@ -542,7 +547,7 @@
 		/*  Tags
 			========================================================================== */
 			.tags {
-				margin: 1.25em 1em 0 1em;
+				margin: 1.25em auto 0 auto;
 				font-family: $sans-serif;
 				font-weight: 700;
 				h4 {

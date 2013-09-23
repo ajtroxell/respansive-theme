@@ -13,7 +13,7 @@
 			<article id="post-<?php the_ID(); ?> <?php post_class(); ?>" class="small-12 medium-10 medium-centered large-8 large-centered columns">
 				<header>
 					<h1><?php the_title(); ?></h1>
-					<h2><?php the_excerpt(); ?></h2>
+					<h2><?php echo get_the_excerpt(); ?></h2>
 				</header>
 					<?php the_content(); ?>
 				<section id="comments" class="comments">

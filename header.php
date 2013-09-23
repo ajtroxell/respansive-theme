@@ -64,7 +64,7 @@
 				<i class="icon-close"></i>
 			</button>
 			<?php get_search_form(); ?>
-			<a href="#" id="btn-register" class="button">
+			<a href="register" id="btn-register" class="button">
 				Get an Account!
 			</a>
 			<div id="nav-primary" class="menu ls1" role="navigation">

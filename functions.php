@@ -53,16 +53,6 @@
 	    return $content;
 	}
 /**
- * Excerpt
- */
-	function replace_excerpt($content) {
-		return str_replace('[...]',
-			'...',
-			$content
-		);
-	}
-	add_filter('the_excerpt', 'replace_excerpt');
-/**
  * Remove caption line styling
  */
 	add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
