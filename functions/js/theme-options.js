@@ -48,6 +48,14 @@ jQuery(document).ready(function(){
 		}
 	});
 
+	jQuery('#post_theme_color').change(function() {
+		var color = jQuery('#post_theme_color option:selected').val();
+		jQuery('#post_theme').removeClass (function (index, css) {
+			return (css.match (/\btheme-\S+/g) || []).join(' ');
+		});
+		jQuery('#post_theme').addClass(color);
+	}).change();
+
 	/* Assign .wps-panel-active class to the first section link and the first section content */
     jQuery('#wps-panel-sidebar a:first').addClass('wps-panel-active');
     jQuery('#wps-panel-content .wps-panel-section:first').addClass('wps-panel-active');

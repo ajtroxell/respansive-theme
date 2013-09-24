@@ -20,6 +20,12 @@
 		word-wrap: break-word;
 	}
 
+	.hidden-txt {
+		position: absolute;
+		left: -9999em;
+		top: -9999em;
+	}
+
 	.bg-full {
 		width: 100%;
 		height: auto;

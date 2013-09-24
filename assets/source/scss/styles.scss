@@ -17,7 +17,7 @@
 
 	#wrap {
 		position: relative;
-		@include transition(left .4s .4s);
+		@include transition(left .4s);
 	}
 
 	.wrap-content {
@@ -86,32 +86,29 @@
 		========================================================================== */
 		#btn-nav {
 			display: inline-block;
-			position: absolute;
+			position: fixed;
 			top: .5em;
 			left: .5em;
 			margin: 0;
-			padding: .6em .5em .65em .5em;
-			background: darken($text,6%);
+			padding: 0;
+			@include font-size(30,30);
+			color: darken($text,6%);
+			background: transparent;
 			border: 0em;
 			@include box-shadow(none);
 			@include border-radius(0em);
-			img {
-				display: block;
-				max-height: 17px;
-			}
 			&:hover {
-				background: $text;
-				@include transition(background .2s);
-			}
-			h1,h2 {
-				position: absolute;
-				top: -9999em;
-				left: -9999em;
+				color: $text;
+				@include transition(color .2s);
 			}
 		}
 
+		.single #btn-nav,.page #btn-nav {
+			text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+		}
+
 		#btn-register {
-			margin: 1em auto -1em auto;
+			margin: 1em auto 1em auto;
 			display: block;
 			width: 100%;
 		}
@@ -183,10 +180,6 @@
 			#nav-wrap-primary {
 				left: 0px;
 			}
-			#btn-nav {
-				left: -2.7em;
-				@include transition((left .4s,right .4s .4s));
-			}
 		}
 
 		#nav-wrap-primary {
@@ -201,9 +194,14 @@
 			font-family: $sans-serif;
 			font-weight: 600;
 			background: darken($text,6%);
-			@include transition((left .4s .4s,right .4s 0));
+			@include transition((left .4s,right .4s));
+			h1,h2 {
+				margin-top: 1em;
+				@include font-size(25,25);
+				color: $white;
+			}
 			ul.menu {
-				margin: 2em 0;
+				margin: 1em 0 1.5em 0;
 				padding: 0;
 				width: 100%;
 				li {
@@ -759,6 +757,9 @@
 			&:last-child {
 				margin-right: 0;
 			}
+		}
+		.wp-pagenavi a:visited {
+			color: lighten($text,60%);
 		}
 		.wp-pagenavi a:hover,.wp-pagenavi span.current {
 			color: lighten($text,50%);

@@ -37,6 +37,12 @@
  -webkit-transition-delay: $string;
 }
 
+@mixin transform ($string) {
+         transform: $string;
+     -ms-transform: $string;
+ -webkit-transform: $string;
+}
+
 @mixin box-shadow ($string) {
   box-shadow: $string;
   -moz-box-shadow: $string;

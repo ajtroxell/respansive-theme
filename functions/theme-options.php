@@ -17,8 +17,8 @@ function admin_register_head() {
     $icons = get_template_directory_uri() . '/functions/css/wp-metro.min.css';
     echo "<link rel='stylesheet' type='text/css' href='$icons' />\n";
 
-    $schemes = get_template_directory_uri() . '/functions/css/color-schemes.css';
-    echo "<link rel='stylesheet' type='text/css' href='$schemes' />\n";
+    $themes = get_template_directory_uri() . '/functions/css/themes.css';
+    echo "<link rel='stylesheet' type='text/css' href='$themes' />\n";
 
     $js = get_template_directory_uri() . '/functions/js/theme-options.js';
     echo "<script type='text/javascript' src='$js'></script>\n";
@@ -34,63 +34,84 @@ function theme_options_add_page() {
 }
 
 /**
- * Create array for our color schemes
+ * Create array for logo control
+ */
+$logo_options = array(
+	'0' => array(
+		'value' =>	'yes',
+		'label' => __( 'yes', 'squar3d' )
+	),
+	'1' => array(
+		'value' =>	'no',
+		'label' => __( 'no', 'squar3d' )
+	)
+);
+/**
+ * Create array for our color themes
  */
 $select_options = array(
 	'0' => array(
-		'value' =>	'default',
+		'value' =>	'theme-default',
 		'label' => __( 'default - #1abc9c', 'respansive' )
 	),
 	'1' => array(
-		'value' =>	'custom',
+		'value' =>	'theme-custom',
 		'label' => __( 'custom', 'respansive' )
 	),
 	'2' => array(
-		'value' =>	'alizarin',
+		'value' =>	'theme-alizarin',
 		'label' => __( 'alizarin - #e74c3c', 'respansive' )
 	),
 	'3' => array(
-		'value' => 'amethyst',
+		'value' => 'theme-amethyst',
 		'label' => __( 'amethyst - #9b59b6', 'respansive' )
 	),
 	'4' => array(
-		'value' => 'belize-hole',
+		'value' => 'theme-belize-hole',
 		'label' => __( 'belize hole - #2980B9', 'respansive' )
 	),
 	'5' => array(
-		'value' => 'carrot',
-		'label' => __( 'carrot - #e67e22', 'respansive' )
+		'value' => 'theme-blue-good',
+		'label' => __( 'blue good - #81a4af', 'respansive' )
 	),
 	'6' => array(
-		'value' => 'concrete',
-		'label' => __( 'concrete - #95A5A6', 'respansive' )
+		'value' => 'theme-carrot',
+		'label' => __( 'carrot - #e67e22', 'respansive' )
 	),
 	'7' => array(
-		'value' => 'emerald',
-		'label' => __( 'emerald - #2ECC71', 'respansive' )
+		'value' => 'theme-concrete',
+		'label' => __( 'concrete - #95A5A6', 'respansive' )
 	),
 	'8' => array(
-		'value' => 'orange',
-		'label' => __( 'orange - #F39C12', 'respansive' )
+		'value' => 'theme-emerald',
+		'label' => __( 'emerald - #2ECC71', 'respansive' )
 	),
 	'9' => array(
-		'value' => 'peter-river',
-		'label' => __( 'peter river - #3498DB', 'respansive' )
+		'value' => 'theme-orange',
+		'label' => __( 'orange - #F39C12', 'respansive' )
 	),
 	'10' => array(
-		'value' => 'pomegranate',
-		'label' => __( 'pomegranate - #C0392B', 'respansive' )
+		'value' => 'theme-peter-river',
+		'label' => __( 'peter river - #3498DB', 'respansive' )
 	),
 	'11' => array(
-		'value' => 'pumpkin',
-		'label' => __( 'pumpkin - #D35400', 'respansive' )
+		'value' => 'theme-pink-lizard',
+		'label' => __( 'pink lizard - #fa2e39', 'respansive' )
 	),
 	'12' => array(
-		'value' => 'wet-asphalt',
-		'label' => __( 'wet asphalt - #34495E', 'respansive' )
+		'value' => 'theme-pomegranate',
+		'label' => __( 'pomegranate - #C0392B', 'respansive' )
 	),
 	'13' => array(
-		'value' => 'wisteria',
+		'value' => 'theme-pumpkin',
+		'label' => __( 'pumpkin - #D35400', 'respansive' )
+	),
+	'14' => array(
+		'value' => 'theme-wet-asphalt',
+		'label' => __( 'wet asphalt - #34495E', 'respansive' )
+	),
+	'15' => array(
+		'value' => 'theme-wisteria',
 		'label' => __( 'wisteria - #8E44AD', 'respansive' )
 	)
 );
@@ -166,8 +187,26 @@ function theme_options_do_page() {
 				?>
 			<div class="wps-panel-section" id="wps-panel-section-general">
 
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Logo', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[logoinput]"><?php _e( 'Show logo image?', 'squar3d' ); ?></label>
+					<select name="respansive_options[logoinput]" id="logo_options">
+						<?php
+							$selected = $options['logoinput'];
+							$p = '';
+							$r = '';
+
+							foreach ( $logo_options as $option ) {
+								$label = $option['label'];
+								if ( $selected == $option['value'] ) // Make default first in list
+									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+								else
+									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+							}
+							echo $p . $r;
+						?>
+					</select>
+					<p>If you do not want to use a logo image your title will be shown via an H1 tag for the home page and H2 tag for subsequent pages.</p>
 					<div id="respansive_options_logo_url">
 						<?php 
 							$logo = array( array( 
@@ -218,15 +257,15 @@ function theme_options_do_page() {
 
 				<?php
 				/**
-				 * Color Scheme
+				 * Color theme
 				 */
 				?>
-				<div class="section squared">
-					<h3><?php _e( 'Color Scheme', 'respansive' ); ?></h3>
-					<label class="description" for="respansive_options[schemeinput]"><?php _e( 'Select a color scheme:', 'respansive' ); ?></label>
-					<select id="color_scheme" name="respansive_options[schemeinput]">
+				<div class="section respansive">
+					<h3><?php _e( 'Color Theme', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[themeinput]"><?php _e( 'Select a color scheme:', 'respansive' ); ?></label>
+					<select id="color_scheme" name="respansive_options[themeinput]">
 						<?php
-							$selected = $options['schemeinput'];
+							$selected = $options['themeinput'];
 							$p = '';
 							$r = '';
 
@@ -246,7 +285,7 @@ function theme_options_do_page() {
 						</div>
 					</div>
 				</div>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Custom Stylesheet', 'respansive' ); ?></h3>
 					<?php 
 						$stylesheet = array( array(
@@ -260,7 +299,7 @@ function theme_options_do_page() {
 						echo "' />";
 					} ?>
 				</div>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'CSS Overrides', 'respansive' ); ?></h3>
 					<?php 
 						$css_override = array( array(
@@ -274,7 +313,7 @@ function theme_options_do_page() {
 						echo "</textarea>";
 					} ?>
 				</div>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Show site tagline on home page?', 'respansive' ); ?></h3>
 					<label class="description" for="respansive_options[taglineinput]"><?php _e( 'Yes or No:', 'respansive' ); ?></label>
 					<select name="respansive_options[taglineinput]">
@@ -295,7 +334,7 @@ function theme_options_do_page() {
 					</select>
 					<p>This is the tagline assigned on the <a href="/wp-admin/options-general.php">General Settings</a> page.</p>
 				</div>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Show author image and bio on posts?', 'respansive' ); ?></h3>
 					<label class="description" for="respansive_options[authorinput]"><?php _e( 'Yes or No:', 'respansive' ); ?></label>
 					<select name="respansive_options[authorinput]">
@@ -325,7 +364,7 @@ function theme_options_do_page() {
 				 * Social Icons
 				 */
 				?>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Social Icons', 'respansive' ); ?></h3>
 
 					<?php 
@@ -538,7 +577,7 @@ function theme_options_do_page() {
 				 * Footer
 				 */
 				?>
-				<div class="section squared">
+				<div class="section respansive">
 					<h3><?php _e( 'Footer Options', 'respansive' ); ?></h3>
 
 					<?php 
@@ -638,8 +677,9 @@ function theme_options_validate( $input ) {
 		$input[$value] = $input[$value];
 	}
 
-	$input['schemeinput'] = $input['schemeinput'];
+	$input['themeinput'] = $input['themeinput'];
 	$input['taglineinput'] = $input['taglineinput'];
+	$input['logoinput'] = $input['logoinput'];
 
 	return $input;
 }

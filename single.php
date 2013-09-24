@@ -3,10 +3,21 @@
 
 		<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
+			
 			<?php if ( has_post_thumbnail() ) { ?>
 				<div class="featured-img">
 					<?php the_post_thumbnail(); ?>
 				</div>
+			<?php } else { ?>
+				 <?php if((get_post_meta($post->ID, "featured_image_holder", true))) { ?>
+					<div class="featured-img">
+						<?php if((get_post_meta($post->ID, "post_theme_color", true))) { ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/css/themes/images/<?php echo get_post_meta($post->ID, "post_theme_color", true); ?>.jpg" alt="" />
+						<?php } else { ?>
+							<img src="<?php $options = get_option('respansive_options'); if (($options['themeinput'] == 'default')) { echo "".get_template_directory_uri()."/assets/css/themes/images/default.jpg"; } elseif (($options['themeinput'] == 'none')) { echo ""; } else { echo "".get_template_directory_uri()."/assets/css/themes/images/".$options['themeinput'].".jpg"; } ?>" alt="" />
+						<?php } ?>
+					</div>
+				<?php } ?>
 			<?php } ?>
 
 		<div class="row module">

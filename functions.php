@@ -4,6 +4,13 @@
  */
 	require_once (TEMPLATEPATH .'/functions/theme-options.php');
 /*
+ * Add meta-boxes
+ */
+define( 'RWMB_URL', trailingslashit( get_stylesheet_directory_uri() . '/meta-box' ) );
+define( 'RWMB_DIR', trailingslashit( TEMPLATEPATH . '/meta-box' ) );
+require_once RWMB_DIR . 'meta-box.php';
+include 'boxes.php';
+/*
  * Remove header junk
  */
 	remove_action('wp_head', 'rsd_link');

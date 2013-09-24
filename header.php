@@ -15,9 +15,17 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/master.css">
 
-	<?php $options = get_option('respansive_options'); if (($options['schemeinput'] == 'default')) { echo ""; } elseif (($options['schemeinput'] == 'none')) { echo ""; } else { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/assets/css/color-schemes/".$options['schemeinput'].".css'>"; } ?>
-	<?php $options = get_option('respansive_options'); if ($options['custom-stylesheet']) { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/".$options['custom-stylesheet'].".css'>"; } ?>
-	<?php $options = get_option('respansive_options'); if ($options['css_override']) { echo "<style type='text/css'>".$options['css_override']."</style>"; } ?>
+	<?php $options = get_option('respansive_options'); if (($options['themeinput'] == 'default')) { echo ""; } elseif (($options['themeinput'] == 'none')) { echo ""; } else { echo "<!-- Included Respansive Theme --><link rel='stylesheet' href='".get_template_directory_uri()."/assets/css/themes/".$options['themeinput'].".css'>"; } ?>
+
+	<?php $options = get_option('respansive_options'); if ($options['custom-stylesheet']) { echo "<!-- Included Custom Stylesheet --><link rel='stylesheet' href='".get_template_directory_uri()."/".$options['custom-stylesheet'].".css'>"; } ?>
+
+	<?php $options = get_option('respansive_options'); if ($options['css_override']) { echo "<!-- Included Custom CSS --><style type='text/css'>".$options['css_override']."</style>"; } ?>
+
+
+	<?php if((get_post_meta($post->ID, "post_theme_color", true))) { ?>
+		<!-- Included Custom Page Theme -->
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/themes/<?php echo get_post_meta($post->ID, "post_theme_color", true); ?>.css">
+	<?php } ?>
 
 	<!-- Google Font -->
 	<link href="http://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
@@ -43,18 +51,8 @@
 <div id="wrap">
 
 	<header class="header-primary">
-		<a id="btn-nav" class="button">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/css/images/logo-header.png" alt=""/>
-			<?php if ( is_home() || is_front_page() ) {
-				echo "<h1>";
-				echo bloginfo('name');
-				echo "</h1>";
-			}
-			else {
-				echo "<h2>";
-				echo bloginfo('name');
-				echo "</h2>";
-			} ?>
+		<a id="btn-nav" class="button" title="show nav">
+			<i class="metro-forward"></i>
 		</a>
 		<div id="nav-wrap-primary">
 			<button id="btn-search-open">
@@ -64,12 +62,43 @@
 				<i class="icon-close"></i>
 			</button>
 			<?php get_search_form(); ?>
-			<a href="register" id="btn-register" class="button">
-				Get an Account!
-			</a>
+			<div class="logo">
+				<a href="<?php echo site_url(); ?>" title="Home">
+                  <?php $options = get_option('respansive_options');
+                    if (($options['logoinput']) == ("yes")) { 
+                      echo "<img src='".$options['logo']."' alt='".get_bloginfo('name')."' />";
+                      if ( is_home() || is_front_page() ) {
+                        echo "<h1 class='hidden-txt'>";
+                        echo bloginfo('name');
+                        echo "</h1>";
+                      }
+                      else {
+                        echo "<h2 class='hidden-txt'>";
+                        echo bloginfo('name');
+                        echo "</h2>";
+                      }
+                    }
+                    else {
+                      if ( is_home() || is_front_page() ) {
+                        echo "<h1>";
+                        echo bloginfo('name');
+                        echo "</h1>";
+                      }
+                      else {
+                        echo "<h2>";
+                        echo bloginfo('name');
+                        echo "</h2>";
+                      }
+                    }
+                  ?>
+                </a>
+			</div>
 			<div id="nav-primary" class="menu ls1" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container' => '','depth' => 2 ) ); ?>
 	        </div>
 	        <?php get_template_part('social'); ?>
+	        <a href="register" id="btn-register" class="button">
+				Get an Account!
+			</a>
 		</div>
 	</header>
