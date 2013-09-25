@@ -1,4 +1,5 @@
-$(document).ready(function () {
+jQuery(document).ready(function($) {
+    
     //SEARCH CLEAR AND RESTORE VALUE
     var el = $('input[type=text], input[type=email], textarea, input.header-search');
     el.focus(function(e) {

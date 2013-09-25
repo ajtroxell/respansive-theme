@@ -6,7 +6,7 @@
 /*
  * Add meta-boxes
  */
-define( 'RWMB_URL', trailingslashit( get_stylesheet_directory_uri() . '/meta-box' ) );
+define( 'RWMB_URL', trailingslashit( get_template_directory_uri() . '/meta-box' ) );
 define( 'RWMB_DIR', trailingslashit( TEMPLATEPATH . '/meta-box' ) );
 require_once RWMB_DIR . 'meta-box.php';
 include 'boxes.php';
@@ -22,6 +22,10 @@ include 'boxes.php';
 	remove_action('wp_head', 'start_post_rel_link', 10, 0);
 	remove_action('wp_head', 'parent_post_rel_link', 10, 0);
 	remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
+/*
+ * Remove admin bar
+ */
+	add_filter('show_admin_bar', '__return_false');
 /**
  * Menus
  */
@@ -32,7 +36,7 @@ include 'boxes.php';
  * Thumbnails
  */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size(1200, 320, true);
+	set_post_thumbnail_size(1594, 384, true);
 /**
  * Feed links
  */

@@ -195,10 +195,13 @@
 			font-weight: 600;
 			background: darken($text,6%);
 			@include transition((left .4s,right .4s));
-			h1,h2 {
-				margin-top: 1em;
-				@include font-size(25,25);
-				color: $white;
+			.logo {
+				margin-top: 1.25em;
+				h1,h2 {
+					margin: 0;
+					@include font-size(25,25);
+					color: $white;
+				}
 			}
 			ul.menu {
 				margin: 1em 0 1.5em 0;

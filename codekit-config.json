@@ -3,8 +3,8 @@
   "creatorBuild" : "8326",
   "files" : {
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-de.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-de.js",
@@ -14,8 +14,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-no.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-no.js",
@@ -25,8 +25,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ta.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ta.js",
@@ -36,8 +36,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sk.js",
@@ -47,25 +47,14 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/validate.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/validate.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/validate-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ru.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ru.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ru-ck.js",
       "fileType" : 64
     },
     "\/assets\/source\/scss\/themes\/theme-pomegranate.scss" : {
@@ -79,6 +68,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/theme-pomegranate.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ru.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ru.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ru-ck.js",
+      "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/datetime.php" : {
       "ignoreWasSetByUser" : 0,
@@ -129,26 +129,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-vi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-vi.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-vi-ck.js",
-      "fileType" : 64
-    },
     "\/functions\/js\/theme-options.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/functions\/js\/theme-options.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/theme-options-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-vi.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-vi.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-vi-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/textarea.php" : {
@@ -161,8 +161,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-id.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-id.js",
@@ -190,8 +190,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-HK.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-HK.js",
@@ -200,20 +200,9 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-zh-HK-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.forms.js" : {
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lt.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.forms.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.forms-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lt.js",
@@ -223,8 +212,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hi.js",
@@ -234,8 +223,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr-CA.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr-CA.js",
@@ -266,25 +255,14 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/oembed.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/oembed.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/oembed-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.reveal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.reveal-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/heading.php" : {
@@ -297,8 +275,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ky.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ky.js",
@@ -316,20 +294,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.joyride.js" : {
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-eu.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.joyride.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.joyride-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-eu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-eu.js",
@@ -359,8 +326,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/jquery-ui-timepicker-addon.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/jquery-ui-timepicker-addon.js",
@@ -368,15 +335,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/jquery-ui-timepicker-addon-ck.js",
       "fileType" : 64
-    },
-    "\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/css\/themes\/images\/theme-pomegranate.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -388,6 +346,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-pomegranate.jpg",
       "initialSize" : 3726,
       "fileType" : 4096
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/source\/scss\/themes\/theme-peter-river.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -401,28 +368,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ko.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ko.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ko-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ar-ck.js",
-      "fileType" : 64
-    },
     "\/functions\/theme-options.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -431,6 +376,28 @@
       "inputAbbreviatedPath" : "\/functions\/theme-options.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ar-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ko.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ko.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ko-ck.js",
+      "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/url.php" : {
       "ignoreWasSetByUser" : 0,
@@ -442,8 +409,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/datetime.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/datetime.js",
@@ -462,8 +429,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fi.js",
@@ -473,8 +440,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-es.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-es.js",
@@ -496,8 +463,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/color.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/color.js",
@@ -507,8 +474,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sv.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sv.js",
@@ -565,8 +532,8 @@
       "fileType" : 8192
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sq.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sq.js",
@@ -576,8 +543,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-it.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-it.js",
@@ -586,17 +553,16 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-it-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss" : {
+    "\/assets\/css\/images\/logo-header.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation-medium.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
+      "initialSize" : 6936,
+      "fileType" : 8192
     },
     "\/searchform.php" : {
       "ignoreWasSetByUser" : 0,
@@ -616,20 +582,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/css\/images\/logo-header.png" : {
+    "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/images\/logo-header.png",
-      "initialSize" : 6936,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/third_party\/foundation\/foundation-medium.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/foundation-medium.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sl.js",
@@ -648,8 +615,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-GB.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-GB.js",
@@ -659,8 +626,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hy.js",
@@ -678,28 +645,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/meta-box\/js\/taxonomy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/taxonomy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/taxonomy-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cs.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cs.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-cs-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/css\/themes\/wisteria.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -708,6 +653,28 @@
       "inputAbbreviatedPath" : "\/assets\/css\/themes\/wisteria.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cs.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-cs-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/taxonomy.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/taxonomy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/taxonomy-ck.js",
+      "fileType" : 64
     },
     "\/comments.php" : {
       "ignoreWasSetByUser" : 0,
@@ -719,8 +686,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-gl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-gl.js",
@@ -730,7 +697,7 @@
       "fileType" : 64
     },
     "\/assets\/source\/js\/third_party\/foundation\/custom.modernizr.js" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 1,
@@ -740,6 +707,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/third_party\/foundation\/custom.modernizr-ck.js",
       "fileType" : 64
     },
+    "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
+    },
     "\/meta-box\/demo\/map.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -748,6 +726,28 @@
       "inputAbbreviatedPath" : "\/meta-box\/demo\/map.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/meta-box\/js\/select2\/select2.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/select2\/select2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/select2.min-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-mk.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-mk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-mk-ck.js",
+      "fileType" : 64
     },
     "\/meta-box\/img\/jqueryui\/ui-bg_flat_75_ffffff_40x100.png" : {
       "ignoreWasSetByUser" : 0,
@@ -760,42 +760,9 @@
       "initialSize" : 178,
       "fileType" : 8192
     },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ca.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ca.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-ca-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-mk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-mk.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-mk-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/select2\/select2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/select2\/select2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/select2.min-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr-CH.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr-CH.js",
@@ -836,16 +803,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ca.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_454545_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ca.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-ca-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/js\/jquery.master-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/jquery.master-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.master-ck-ck.js",
+      "fileType" : 64
     },
     "\/assets\/source\/scss\/themes\/wet-asphalt.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -859,20 +837,9 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/jquery.master-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/jquery.master-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.master-ck-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-bs.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-bs.js",
@@ -881,20 +848,9 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-bs-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.hoverIntent-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-he.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-he.js",
@@ -903,20 +859,9 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-he-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery.throttledresize-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cy-GB.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-cy-GB.js",
@@ -935,8 +880,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-NZ.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-NZ.js",
@@ -958,8 +903,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-af.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-af.js",
@@ -977,14 +922,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/meta-box\/css\/select.css" : {
+    "\/meta-box\/inc\/fields\/wysiwyg.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/css\/select.css",
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/wysiwyg.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/meta-box\/css\/jqueryui\/jquery-ui-timepicker-addon.css" : {
       "ignoreWasSetByUser" : 0,
@@ -994,17 +939,6 @@
       "inputAbbreviatedPath" : "\/meta-box\/css\/jqueryui\/jquery-ui-timepicker-addon.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/meta-box\/js\/file-advanced.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/file-advanced.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/file-advanced-ck.js",
-      "fileType" : 64
     },
     "\/assets\/source\/scss\/themes\/theme-blue-good.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1018,20 +952,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.cookie.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.cookie-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pl.js" : {
+    "\/meta-box\/inc\/fields\/button.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/button.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pl.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pl.js",
@@ -1041,8 +973,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-el.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-el.js",
@@ -1052,8 +984,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fo.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fo.js",
@@ -1061,6 +993,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-fo-ck.js",
       "fileType" : 64
+    },
+    "\/meta-box\/inc\/fields\/radio.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/radio.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/themes\/images\/theme-alizarin.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1082,18 +1023,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/meta-box\/inc\/fields\/wysiwyg.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/wysiwyg.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-kk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-kk.js",
@@ -1102,18 +1034,29 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-kk-ck.js",
       "fileType" : 64
     },
-    "\/meta-box\/inc\/fields\/radio.php" : {
+    "\/meta-box\/css\/select.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/radio.php",
+      "inputAbbreviatedPath" : "\/meta-box\/css\/select.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
+    },
+    "\/meta-box\/js\/file-advanced.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/file-advanced.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/file-advanced-ck.js",
+      "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-tr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-tr.js",
@@ -1121,15 +1064,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-tr-ck.js",
       "fileType" : 64
-    },
-    "\/meta-box\/inc\/fields\/button.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/button.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/css\/themes\/theme-peter-river.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1140,31 +1074,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/css\/images\/featured\/1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/images\/featured\/1.jpg",
-      "initialSize" : 59371,
-      "fileType" : 4096
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js" : {
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-et.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.min-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-et.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-et.js",
@@ -1174,8 +1086,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/clone.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/clone.js",
@@ -1194,14 +1106,36 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-zh-CN.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-zh-CN.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-zh-CN-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-CN.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-CN.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-zh-CN-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eo.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eo.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-eo-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/themes\/images\/theme-pumpkin.jpg" : {
@@ -1216,47 +1150,14 @@
       "fileType" : 4096
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ka.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ka.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ka-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-CN.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-CN.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-zh-CN-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eo.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eo.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-eo-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-th.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-th.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-th-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/css\/select-advanced.css" : {
@@ -1268,9 +1169,20 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-th.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-th.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-th-ck.js",
+      "fileType" : 64
+    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sr.js",
@@ -1280,8 +1192,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ro.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ro.js",
@@ -1341,8 +1253,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-AU.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-en-AU.js",
@@ -1370,8 +1282,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl-BE.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl-BE.js",
@@ -1389,6 +1301,28 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-nl-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ja.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ja.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ja-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/source\/scss\/themes\/theme-pink-lizard.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1400,28 +1334,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/theme-pink-lizard.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nl.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-nl-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ja.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ja.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-ja-ck.js",
-      "fileType" : 64
     },
     "\/meta-box\/img\/jqueryui\/ui-icons_888888_256x240.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1458,8 +1370,8 @@
       "fileType" : 8192
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hu.js",
@@ -1469,25 +1381,14 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/image.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/image.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/image-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.topbar.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.topbar.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.topbar-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/themes\/images\/theme-amethyst.jpg" : {
@@ -1502,8 +1403,8 @@
       "fileType" : 4096
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-rm.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-rm.js",
@@ -1513,8 +1414,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nb.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nb.js",
@@ -1524,8 +1425,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-de.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-de.js",
@@ -1535,8 +1436,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pt.js",
@@ -1546,8 +1447,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ml.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ml.js",
@@ -1575,8 +1476,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lv.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lv.js",
@@ -1595,8 +1496,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-fr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-fr.js",
@@ -1606,8 +1507,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-bg.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-bg.js",
@@ -1617,8 +1518,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-uk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-uk.js",
@@ -1628,8 +1529,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-vi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-vi.js",
@@ -1637,6 +1538,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-vi-ck.js",
       "fileType" : 64
+    },
+    "\/meta-box\/inc\/common.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/common.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/themes\/images\/wisteria.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1648,15 +1558,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/wisteria.jpg",
       "initialSize" : 3725,
       "fileType" : 4096
-    },
-    "\/meta-box\/inc\/common.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/common.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/meta-box\/inc\/fields\/image-advanced.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1680,8 +1581,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pt-BR.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pt-BR.js",
@@ -1691,8 +1592,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/date.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/date.js",
@@ -1702,8 +1603,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/slider.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/slider.js",
@@ -1712,20 +1613,20 @@
       "outputAbbreviatedPath" : "\/js\/slider-ck.js",
       "fileType" : 64
     },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt-BR.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lb.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt-BR.js",
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lb.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-pt-BR-ck.js",
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-lb-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-be.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-be.js",
@@ -1734,15 +1635,15 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-be-ck.js",
       "fileType" : 64
     },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lb.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt-BR.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-lb.js",
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt-BR.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-lb-ck.js",
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-pt-BR-ck.js",
       "fileType" : 64
     },
     "\/register.php" : {
@@ -1754,20 +1655,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js" : {
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-no.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.section.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.section-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-no.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-no.js",
@@ -1777,8 +1667,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-eu.js",
@@ -1788,8 +1678,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-sk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-sk.js",
@@ -1808,8 +1698,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ru.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ru.js",
@@ -1840,8 +1730,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fa.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fa.js",
@@ -1872,8 +1762,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-id.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-id.js",
@@ -1893,17 +1783,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/themes\/theme-pumpkin.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.tooltips.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.tooltips-ck.js",
-      "fileType" : 64
     },
     "\/boxes.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1935,8 +1814,8 @@
       "fileType" : 4096
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-lt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-lt.js",
@@ -1953,17 +1832,6 @@
       "inputAbbreviatedPath" : "\/meta-box\/css\/color.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.magellan.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.magellan-ck.js",
-      "fileType" : 64
     },
     "\/assets\/css\/themes\/theme-pumpkin.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1994,6 +1862,17 @@
       "inputAbbreviatedPath" : "\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/screenshot.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/screenshot.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/screenshot.png",
+      "initialSize" : 78827,
+      "fileType" : 8192
     },
     "\/assets\/source\/js\/jquery.comments.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2045,17 +1924,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/css\/themes\/images\/theme-concrete.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
-      "initialSize" : 3725,
-      "fileType" : 4096
-    },
     "\/assets\/source\/scss\/themes\/theme-concrete.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2068,17 +1936,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
     "\/meta-box\/img\/jqueryui\/ui-icons_cd0a0a_256x240.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2090,14 +1947,27 @@
       "initialSize" : 4369,
       "fileType" : 8192
     },
-    "\/meta-box\/inc\/fields\/password.php" : {
+    "\/assets\/css\/themes\/images\/theme-concrete.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/password.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/theme-concrete.jpg",
+      "initialSize" : 3725,
+      "fileType" : 4096
+    },
+    "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/meta-box\/img\/jqueryui\/ui-icons_222222_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
     },
     "\/assets\/css\/themes\/theme-concrete.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2107,6 +1977,15 @@
       "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-concrete.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/meta-box\/inc\/fields\/password.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/password.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/meta-box\/css\/jqueryui\/jquery.ui.core.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2118,8 +1997,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-da.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-da.js",
@@ -2152,8 +2031,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ko.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ko.js",
@@ -2214,27 +2093,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/meta-box\/inc\/fields\/fieldset-text.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.placeholder-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/zepto.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/zepto.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/zepto-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/fieldset-text.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/themes\/images\/theme-peter-river.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2247,18 +2113,9 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/meta-box\/inc\/fields\/fieldset-text.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/fieldset-text.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-az.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-az.js",
@@ -2267,20 +2124,9 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-az-ck.js",
       "fileType" : 64
     },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.js" : {
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-fi.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-fi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-fi.js",
@@ -2289,9 +2135,20 @@
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-fi-ck.js",
       "fileType" : 64
     },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-gl.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-gl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-gl-ck.js",
+      "fileType" : 64
+    },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ca.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ca.js",
@@ -2310,25 +2167,14 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-es.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-es.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-es-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-gl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-gl.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-gl-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/checkbox.php" : {
@@ -2350,8 +2196,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-sv.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-sv.js",
@@ -2373,8 +2219,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-km.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-km.js",
@@ -2396,8 +2242,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-it.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-it.js",
@@ -2416,8 +2262,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/plupload-image.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/plupload-image.js",
@@ -2427,8 +2273,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-af.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-af.js",
@@ -2438,8 +2284,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-tj.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-tj.js",
@@ -2449,8 +2295,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/map.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/map.js",
@@ -2471,8 +2317,8 @@
       "fileType" : 8192
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-el.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-el.js",
@@ -2482,8 +2328,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-cs.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-cs.js",
@@ -2500,17 +2346,6 @@
       "inputAbbreviatedPath" : "\/meta-box\/demo\/force-delete.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/source\/js\/third_party\/jquery\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/jquery-ck.js",
-      "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/text-list.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2531,8 +2366,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nn.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-nn.js",
@@ -2553,20 +2388,9 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/theme-options-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/theme-options-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/theme-options-ck-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/js\/autosave.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/autosave.js",
@@ -2574,15 +2398,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/autosave-ck.js",
       "fileType" : 64
-    },
-    "\/meta-box\/inc\/fields\/time.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/time.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/meta-box\/css\/plupload-image.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2592,6 +2407,15 @@
       "inputAbbreviatedPath" : "\/meta-box\/css\/plupload-image.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/meta-box\/inc\/fields\/time.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/time.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/source\/scss\/third_party\/fonts\/respansive\/respansive.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2615,8 +2439,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ms.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ms.js",
@@ -2646,8 +2470,8 @@
       "fileType" : 8192
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-he.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-he.js",
@@ -2657,8 +2481,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ro.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ro.js",
@@ -2668,8 +2492,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-hr.js",
@@ -2709,16 +2533,16 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/assets\/css\/themes\/images\/default.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/meta-box\/js\/image-advanced.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
-      "initialSize" : 3725,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/meta-box\/js\/image-advanced.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/image-advanced-ck.js",
+      "fileType" : 64
     },
     "\/meta-box\/meta-box.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2738,17 +2562,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/meta-box\/js\/image-advanced.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/image-advanced.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/image-advanced-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/css\/themes\/theme-alizarin.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2757,6 +2570,17 @@
       "inputAbbreviatedPath" : "\/assets\/css\/themes\/theme-alizarin.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/assets\/css\/themes\/images\/default.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/themes\/images\/default.jpg",
+      "initialSize" : 3725,
+      "fileType" : 4096
     },
     "\/meta-box\/demo\/include-by-ID-or-page-template.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2799,8 +2623,8 @@
       "fileType" : 4096
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-zh-TW.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-zh-TW.js",
@@ -2810,25 +2634,14 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-pl.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-pl-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.clearing.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.clearing-ck.js",
       "fileType" : 64
     },
     "\/page.php" : {
@@ -2840,34 +2653,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-TW.js" : {
+    "\/meta-box\/inc\/fields\/select.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-TW.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-zh-TW-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.orbit.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.orbit-ck.js",
-      "fileType" : 64
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/select.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2880,37 +2671,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/meta-box\/inc\/fields\/select.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/select.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-tr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-tr.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-tr-ck.js",
-      "fileType" : 64
-    },
-    "\/meta-box\/js\/thickbox-image.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/js\/thickbox-image.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/thickbox-image-ck.js",
-      "fileType" : 64
-    },
     "\/meta-box\/css\/select2\/select2x2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2922,6 +2682,48 @@
       "initialSize" : 845,
       "fileType" : 8192
     },
+    "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-TW.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-zh-TW.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery.ui.datepicker-zh-TW-ck.js",
+      "fileType" : 64
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-tr.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-tr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-tr-ck.js",
+      "fileType" : 64
+    },
+    "\/meta-box\/js\/thickbox-image.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/js\/thickbox-image.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/thickbox-image-ck.js",
+      "fileType" : 64
+    },
     "\/meta-box\/css\/jqueryui\/jquery.ui.theme.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2932,8 +2734,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/file.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/file.js",
@@ -2943,8 +2745,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-pt.js",
@@ -2954,8 +2756,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-et.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-et.js",
@@ -2996,15 +2798,6 @@
       "initialSize" : 3725,
       "fileType" : 4096
     },
-    "\/meta-box\/inc\/fields\/post.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/post.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/meta-box\/inc\/fields\/email.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3014,9 +2807,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/meta-box\/js\/time.js" : {
+    "\/meta-box\/inc\/fields\/post.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/meta-box\/inc\/fields\/post.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/meta-box\/js\/time.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/time.js",
@@ -3047,8 +2849,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/select-advanced.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/select-advanced.js",
@@ -3058,8 +2860,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-bg.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-bg.js",
@@ -3069,8 +2871,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar-DZ.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-ar-DZ.js",
@@ -3080,8 +2882,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-uk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-uk.js",
@@ -3091,8 +2893,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-fr.js",
@@ -3102,8 +2904,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-th.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-th.js",
@@ -3125,8 +2927,8 @@
       "debugStyle" : 0
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sr-SR.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-sr-SR.js",
@@ -3199,8 +3001,8 @@
       "fileType" : 16
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-nl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-nl.js",
@@ -3210,36 +3012,14 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ja.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-ja.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/meta-box\/js\/js\/jquery-ui-timepicker-ja-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.dropdown-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.alerts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/source\/js\/js\/foundation.alerts-ck.js",
       "fileType" : 64
     },
     "\/meta-box\/inc\/fields\/divider.php" : {
@@ -3252,8 +3032,8 @@
       "fileType" : 2048
     },
     "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-hu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/timepicker-i18n\/jquery-ui-timepicker-hu.js",
@@ -3263,8 +3043,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jquery.validate.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jquery.validate.min.js",
@@ -3303,8 +3083,8 @@
       "fileType" : 64
     },
     "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-is.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/meta-box\/js\/jqueryui\/datepicker-i18n\/jquery.ui.datepicker-is.js",
@@ -3329,50 +3109,22 @@
     {
       "type" : 1,
       "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery\/jquery.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
+      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
+      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 1,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/foundation\/foundation.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 2,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/throttledresize\/jquery.throttledresize.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 3,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/hoverintent\/jquery.hoverIntent.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 4,
+      "position" : 0,
       "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/loadcomplete\/loadcomplete.js",
       "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
-      "position" : 5,
+      "position" : 1,
       "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.functions.js",
       "baseFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.master.js",
-      "followForSyntaxChecking" : 1
-    },
-    {
-      "type" : 1,
-      "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/assets\/source\/js\/jquery.comments.js",
-      "baseFileAbbreviatedPath" : "\/assets\/source\/js\/third_party\/jquery-validate\/jquery.validate.js",
       "followForSyntaxChecking" : 1
     }
   ],

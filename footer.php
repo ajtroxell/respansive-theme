@@ -30,7 +30,7 @@
 		<?php } ?>
 		<div class="row">
 			<div class="small-12 medium-10 medium-centered large-8 large-centered columns text-center">
-				<p class="copy">&copy;<?php echo date("Y") ?> <?php bloginfo('name'); ?></p>
+				<p class="copy">&copy;<?php echo date("Y") ?> <?php bloginfo('name'); ?>. <?php $options = get_option('respansive_options'); if ($options['footer-text']) { echo $options['footer-text']; } ?></p>
 			</div>
 		</div>
 	</footer>
@@ -42,6 +42,10 @@
 	<?php if ( is_single() || is_page() ) { ?>
 		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate-ck.js"></script>
 	<?php } ?>
+
+	<?php wp_footer(); ?>
+
+	<?php $options = get_option('respansive_options'); if ($options['google-analytics']) { echo $options['google-analytics']; } ?>
 
 </body>
 </html>

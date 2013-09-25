@@ -39,11 +39,11 @@ function theme_options_add_page() {
 $logo_options = array(
 	'0' => array(
 		'value' =>	'yes',
-		'label' => __( 'yes', 'squar3d' )
+		'label' => __( 'yes', 'respansive' )
 	),
 	'1' => array(
 		'value' =>	'no',
-		'label' => __( 'no', 'squar3d' )
+		'label' => __( 'no', 'respansive' )
 	)
 );
 /**
@@ -144,12 +144,26 @@ $author_options = array(
 	)
 );
 
+/**
+ * Create array for register button control
+ */
+$register_options = array(
+	'0' => array(
+		'value' =>	'yes',
+		'label' => __( 'yes', 'respansive' )
+	),
+	'1' => array(
+		'value' =>	'no',
+		'label' => __( 'no', 'respansive' )
+	)
+);
+
 
 /**
  * Create the options page
  */
 function theme_options_do_page() {
-	global $select_options, $search_options, $tagline_options, $author_options, $logo_options;
+	global $select_options, $tagline_options, $author_options, $logo_options, $register_options;
 
 	if ( ! isset( $_REQUEST['settings-updated'] ) )
 		$_REQUEST['settings-updated'] = false;
@@ -167,8 +181,9 @@ function theme_options_do_page() {
 
 			<div id="wps-panel-sidebar">
 				<ul>
-					<li><a href="#wps-panel-section-general">General</a></li>
+					<li><a href="#wps-panel-section-logos">Logos</a></li>
 					<li><a href="#wps-panel-section-appearance">Appearance</a></li>
+					<li><a href="#wps-panel-section-register">Registration</a></li>
 					<li><a href="#wps-panel-section-social">Social</a></li>
 					<li><a href="#wps-panel-section-footer">Footer</a></li>
 				</ul>
@@ -185,11 +200,11 @@ function theme_options_do_page() {
 				 * Logos
 				 */
 				?>
-			<div class="wps-panel-section" id="wps-panel-section-general">
+			<div class="wps-panel-section" id="wps-panel-section-logos">
 
 				<div class="section respansive">
 					<h3><?php _e( 'Logo', 'respansive' ); ?></h3>
-					<label class="description" for="respansive_options[logoinput]"><?php _e( 'Show logo image?', 'squar3d' ); ?></label>
+					<label class="description" for="respansive_options[logoinput]"><?php _e( 'Show logo image?', 'respansive' ); ?></label>
 					<select name="respansive_options[logoinput]" id="logo_options">
 						<?php
 							$selected = $options['logoinput'];
@@ -253,7 +268,7 @@ function theme_options_do_page() {
 
 			</div><!-- #wps-panel-section-general -->
 
-			 <div class="wps-panel-section" id="wps-panel-section-appearance">
+			<div class="wps-panel-section" id="wps-panel-section-appearance">
 
 				<?php
 				/**
@@ -343,7 +358,7 @@ function theme_options_do_page() {
 							$p = '';
 							$r = '';
 
-							foreach ( $tagline_options as $option ) {
+							foreach ( $author_options as $option ) {
 								$label = $option['label'];
 								if ( $selected == $option['value'] ) // Make default first in list
 									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
@@ -356,6 +371,49 @@ function theme_options_do_page() {
 				</div>
 
 			</div><!-- #wps-panel-section-appearance -->
+
+			<div class="wps-panel-section" id="wps-panel-section-register">
+
+				<div class="section respansive">
+					<h3><?php _e( 'Registration', 'respansive' ); ?></h3>
+					<label class="description" for="respansive_options[registerinput]"><?php _e( 'Show user registration button in sidebar?', 'respansive' ); ?></label>
+					<select name="respansive_options[registerinput]" id="register_options">
+						<?php
+							$selected = $options['registerinput'];
+							$p = '';
+							$r = '';
+
+							foreach ( $register_options as $option ) {
+								$label = $option['label'];
+								if ( $selected == $option['value'] ) // Make default first in list
+									$p = "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+								else
+									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
+							}
+							echo $p . $r;
+						?>
+					</select>
+					<p>You can also add a link to your registration page in the main navigation menu.</p>
+					
+					<h3><?php _e( 'Registration Button Values', 'respansive' ); ?></h3>
+					<?php 
+						$registerbutton = array( array(
+							"Input" => "registerurl", 
+							"Label" => "Registration page URL:"
+						),
+						array( 
+							"Input" => "registertext", 
+							"Label" => "Registration button text:"
+						)
+					);
+						foreach ( $registerbutton as $input ) {
+						echo "<p><label class='description' for='respansive_options[".$input['Input']."]'>".$input['Label']."</label><br/><input id='respansive_options[".$input['Input']."]' class='regular-text' type='text' name='respansive_options[".$input['Input']."]' value='";
+						echo esc_attr_e( $options[$input['Input']] );
+						echo "' /></p>";
+					} ?>
+				</div>
+
+			</div><!-- #wps-panel-section-register -->
 
 			<div class="wps-panel-section" id="wps-panel-section-social">
 
@@ -616,7 +674,7 @@ function theme_options_do_page() {
  * Sanitize and validate input. Accepts an array, return a sanitized array.
  */
 function theme_options_validate( $input ) {
-	global $select_options, $tagline_options, $logo_options;
+	global $select_options, $tagline_options, $author_options, $logo_options, $register_options;
 
 	// Say our text option must be safe text with no HTML tags
 	$inputValidateArray;
@@ -664,11 +722,13 @@ function theme_options_validate( $input ) {
 	$inputValidateArray["ios114"] = "ios114";
 	$inputValidateArray["ios72"] = "ios72";
 	$inputValidateArray["ios57"] = "ios57";
+	$inputValidateArray["registertext"] = "registertext";
 	foreach( $inputValidateArray as $key => $value) {
 		$input[$value] = wp_filter_nohtml_kses( $input[$value] );
 	}
 
 	$inputValidateArray;
+	$inputValidateArray["registerurl"] = "registerurl";
 	$inputValidateArray["footer-text"] = "footer-text";
 	$inputValidateArray["google-analytics"] = "google-analytics";
 	$inputValidateArray["custom-stylesheet"] = "custom-stylesheet";
@@ -680,6 +740,7 @@ function theme_options_validate( $input ) {
 	$input['themeinput'] = $input['themeinput'];
 	$input['taglineinput'] = $input['taglineinput'];
 	$input['logoinput'] = $input['logoinput'];
+	$input['registerinput'] = $input['registerinput'];
 
 	return $input;
 }
