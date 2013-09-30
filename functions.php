@@ -113,7 +113,7 @@ include 'boxes.php';
 
 			<div class="comment-content">
 				<?php if ($comment->comment_approved == '0') : ?>
-					<em><?php _e('Your comment is awaiting moderation.', 'white') ?></em>
+					<em><?php _e('Your comment is awaiting moderation.', 'respansive') ?></em>
 				<?php endif; ?>
 
 				<?php comment_text() ?>
