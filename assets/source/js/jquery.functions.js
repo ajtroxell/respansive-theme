@@ -61,8 +61,4 @@ jQuery(document).ready(function($) {
         }
     });
 
-    $('article img').loadComplete(function(){
-        $(this).fadeIn(800);
-    });
-
 });
