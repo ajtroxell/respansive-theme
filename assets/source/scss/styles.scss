@@ -666,6 +666,16 @@
 		}
 	}
 
+	.comment-subscription-form {
+		margin: 0;
+		input {
+			margin: 0;
+		}
+		label {
+			font-weight: normal;
+		}
+	}
+
 	/*  Pingbacks & Trackbacks
 		========================================================================== */
 		ol.pingbacklist {
@@ -684,6 +694,9 @@
 				@include font-size(13);
 				color: lighten($text,50%);
 			}
+		}
+		.form-submit {
+			margin-bottom: 0;
 		}
 
 /* ===========================================================================
