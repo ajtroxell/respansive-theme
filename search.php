@@ -19,6 +19,8 @@ Template Name: Search Page
 		                <dd><?php _e("Sorry, your search returned no results."); ?></dd>
 		                <?php endif; ?>
 					</dl>
+					<h2>Search again</h2>
+					<?php get_search_form(); ?>
 			</article>
 		</section>
 
