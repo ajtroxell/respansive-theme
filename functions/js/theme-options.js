@@ -48,12 +48,14 @@ jQuery(document).ready(function(){
 		}
 	});
 
+	jQuery('#post_theme_color').after('<div class="theme_sample"></div>');
+
 	jQuery('#post_theme_color').change(function() {
 		var color = jQuery('#post_theme_color option:selected').val();
-		jQuery('#post_theme').removeClass (function (index, css) {
+		jQuery('.theme_sample').removeClass (function (index, css) {
 			return (css.match (/\btheme-\S+/g) || []).join(' ');
 		});
-		jQuery('#post_theme').addClass(color);
+		jQuery('.theme_sample').addClass(color);
 	}).change();
 
 	/* Assign .wps-panel-active class to the first section link and the first section content */

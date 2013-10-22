@@ -34,8 +34,41 @@
 						<li><a href="<?php the_permalink(); ?>#comments" title="Comments"><?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></a></li>
 					</ul>
 					<h1><?php the_title(); ?></h1>
+
+					<ul class="extras text-right">
+					<?php  if((get_post_meta($post->ID, "star_rating", true))) { ?>
+					<?php $starRating=get_post_meta($post->ID, 'star_rating', true); ?>
+					<li>
+						<div class="rating">
+							<?php if ($starRating == "1") : ?>
+								Rating: <i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i>
+							<?php elseif ($starRating == "2") : ?>
+								Rating: <i class="metro-plan-starred"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i>
+							<?php elseif ($starRating == "3") : ?>
+								Rating: <i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i>
+							<?php elseif ($starRating == "4") : ?>
+								Rating: <i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred outlined"></i><i class="metro-plan-starred outlined"></i>
+							<?php elseif ($starRating == "5") : ?>
+								Rating: <i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred outlined"></i>
+							<?php elseif ($starRating == "6") : ?>
+								Rating: <i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred"></i><i class="metro-plan-starred"></i>
+							<?php endif; ?>
+						</div>
+					</li>
+					<?php } ?>
+
+					<?php  if((get_post_meta($post->ID, "podcast_url", true))) { ?>
+						<li>
+							<div class="podcast">
+								Podcast: <a href="<?php echo get_post_meta($post->ID, "podcast_url", true); ?>"><i class="metro-tumblr-audio"></i> Listen</a>
+							</div>
+						</li>
+					<?php } ?>
+				</ul>
+
 					<h2><?php echo get_the_excerpt(); ?></h2>
 				</header>
+
 					<?php the_content(); ?>
 					<?php if( has_tag() ) { ?>
 					<div class="tags uc">

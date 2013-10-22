@@ -40,7 +40,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.master-ck.js"></script>
 
 	<?php if ( is_single() || is_page() ) { ?>
-		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.validate-ck.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.comments-ck.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.login-ck.js"></script>
 	<?php } ?>

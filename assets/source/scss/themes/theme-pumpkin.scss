@@ -12,6 +12,10 @@ a {
 	}
 }
 
+.rating i {
+	color: $link;
+}
+
 .btn,input[type=submit],input[type=button],button[type=submit],button,.button,.comment-reply-link {
 	background: $link;
 	border-color: darken($link,10%);

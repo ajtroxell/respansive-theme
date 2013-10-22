@@ -25,8 +25,8 @@ $meta_boxes = array();
 
 // Per post theme
 $meta_boxes[] = array(
-    'id' => 'post_theme',
-    'title' => 'Post Color Theme',
+    'id' => 'entry_options',
+    'title' => 'Entry Options',
     'pages' => array('post'),
     'context' => 'normal',
     'priority' => 'high',
@@ -34,7 +34,7 @@ $meta_boxes[] = array(
     'fields' => array(
         // SELECT BOX
         array(
-            'name'     => __( 'Color' ),
+            'name'     => __( 'Post Theme Color' ),
             'id'       => "post_theme_color",
             'type'     => 'select',
             'options'  => array(
@@ -59,18 +59,6 @@ $meta_boxes[] = array(
             'std'         => 'value2',
             'placeholder' => __( 'select a color' ),
         ),
-    )
-);
-
-// Post/page featured text
-$meta_boxes[] = array(
-    'id' => 'featured_image',
-    'title' => 'Featured Image Options',
-    'pages' => array('post'),
-    'context' => 'normal',
-    'priority' => 'high',
-
-    'fields' => array(
         array(
             'name'     => __( 'Show placeholder?' ),
             'desc' => 'A placeholder image the same color as your site or post theme will be used if "yes" is selected and no featured image is assigned.',
@@ -84,6 +72,32 @@ $meta_boxes[] = array(
             'multiple'    => false,
             'std'         => 'value2',
             'placeholder' => __( 'yes or no' ),
+        ),
+        array(
+            'name'    => __( 'Star Rating' ),
+            'id'      => "star_rating",
+            'type'    => 'select',
+            // Array of 'value' => 'Label' pairs for radio options.
+            // Note: the 'value' is stored in meta field, not the 'Label'
+            'options'  => array(
+                '0' => __( 'select stars' ),
+                '1' => __( '0 stars' ),
+                '2' => __( '1 star' ),
+                '3' => __( '2 stars' ),
+                '4' => __( '3 stars' ),
+                '5' => __( '4 stars' ),
+                '6' => __( '5 stars' ),
+            ),
+            // Select multiple values, optional. Default is false.
+            'multiple'    => false,
+            'std'         => 'value0',
+        ),
+        array(
+            'name'  => __( 'Podcast URL', 'rwmb' ),
+            'id'    => "podcast_url",
+            'desc'  => __( 'If this post has an accompanying podcast, enter the url.' ),
+            'type'  => 'text',
+            'std'   => __( '' ),
         ),
     )
 );

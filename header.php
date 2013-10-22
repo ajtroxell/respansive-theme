@@ -98,10 +98,14 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container' => '','depth' => 2 ) ); ?>
 	        </div>
 	        <?php get_template_part('social'); ?>
-	         <?php $options = get_option('respansive_options'); if (($options['registerinput']) == ("yes")) { ?>
-		        <a href="<?php $options = get_option('respansive_options'); if ($options['registerurl']) { ?><?php echo $options['registerurl']; ?><?php } ?>" id="btn-register" class="button">
-					<?php $options = get_option('respansive_options'); if ($options['registertext']) { ?><?php echo $options['registertext']; ?><?php } ?>
-				</a>
+	        <?php if ( is_user_logged_in() ) { ?>
+				<a href="/wp-admin" id="btn-register" class="button">Admin Dashboard</a>
+	        <?php } else { ?>
+		        <?php $options = get_option('respansive_options'); if (($options['registerinput']) == ("yes")) { ?>
+			        <a href="<?php $options = get_option('respansive_options'); if ($options['registerurl']) { ?><?php echo $options['registerurl']; ?><?php } ?>" id="btn-register" class="button">
+						<?php $options = get_option('respansive_options'); if ($options['registertext']) { ?><?php echo $options['registertext']; ?><?php } ?>
+					</a>
+				<?php } ?>
 			<?php } ?>
 		</div>
 	</header>

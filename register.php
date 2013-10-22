@@ -21,9 +21,13 @@ get_header(); ?>
 					<h2><?php echo get_the_excerpt(); ?></h2>
 				</header>
 					<?php the_content(); ?>
-					<form action="<?php echo site_url('wp-login.php?action=register', 'login_post') ?>" method="post" class="register">  
-			            <input type="text" name="user_login" value="Username" id="user_login" class="input" />  
-			            <input type="text" name="user_email" value="E-Mail" id="user_email" class="input"  />  
+					<form action="<?php echo site_url('wp-login.php?action=register', 'login_post') ?>" method="post" id="register">
+						<label for="user_login" id="user_login">Username<span class="required">*</span></label>
+			            	<input type="text" name="user_login" value="" id="user_login" class="input" required/>
+			            <label for="user_email" id="user_email">Email<span class="required">*</span></label> 
+			            	<input type="text" name="user_email" value="" id="user_email" class="input" required/>
+			            <label for="answer" id="answer">Name the small house pet that says "<i>meow</i>"<span class="required">*</span></label>
+							<input type="text" name="answer" value="" required/>
 			            <?php do_action('register_form'); ?>  
 			            <input type="submit" value="Register" id="register" />  
 					</form>

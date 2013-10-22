@@ -52,6 +52,7 @@
 			font-weight: 500;
 			letter-spacing: 1px;
 			color: $white;
+			text-decoration: none;
 			background: $link;
 			border: none;
 			border-bottom: .1em solid darken($link,8%);
@@ -59,6 +60,7 @@
 			@include transition (all .2s);
 			@include box-shadow(none);
 			&:hover {
+				text-decoration: none;
 				background: $link-hover;
 				border-bottom: .1em solid darken($link-hover,8%);
 			}
@@ -68,6 +70,9 @@
 			&:visited {
 				color: $white;
 				border-bottom: .1em solid darken($link,8%);
+			}
+			&:focus {
+				outline: none;
 			}
 		}
 
@@ -313,6 +318,40 @@
 
 	/*  Articles
 		========================================================================== */
+		.extras {
+			margin: 0 0 1em 0;
+			list-style: none;
+			li {
+				display: inline;
+				margin: 0 1em 0 0;
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+		.rating {
+			display: inline;
+			font-family: $sans-serif;
+			@include font-size(15,15);
+			color: lighten($text,35%);
+			i {
+				color: $link;
+				&.outlined {
+					color: lighten($text,60%);
+				}
+			}
+		}
+
+		.podcast {
+			display: inline;
+			font-family: $sans-serif;
+			@include font-size(15,15);
+			color: lighten($text,35%);
+			a {
+				text-decoration: none;
+			}
+		}
+
 		.featured-img {
 			width: 100%;
 			max-height: 24em;
@@ -840,4 +879,10 @@
 
 	.required {
 		color: $red;
+	}
+
+	.logged-in {
+		.login-nav {
+			display: none!important;
+		}
 	}
